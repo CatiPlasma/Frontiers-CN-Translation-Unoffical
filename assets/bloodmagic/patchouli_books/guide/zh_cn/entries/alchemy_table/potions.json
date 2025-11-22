@@ -1,0 +1,109 @@
+{
+  "name": "药水酿造",
+  "icon": "bloodmagic:alchemy_flask",
+  "category": "bloodmagic:alchemy_table",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)药水酿造$()的基础知识在这片土地上人尽皆知。即使是普通的牧师和女巫也牢牢掌握着酿造的基本原理——取一些半稀有材料，以正确的比例混合，然后喝下成品（如果需要的话捏住鼻子），或者扔向你的敌人。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "然而，$(blood)生命源质$()的加入和一些 frankly 巧妙无比的血法术使你能够强化这一实践。$(br2)通过将普通的$(item)玻璃瓶$()灌注你的力量，你能够容纳远超一口的液体，并且通过使用各种$(item)催化剂$()，你已经弄明白了如何在一个瓶子里结合多种效果，而不会让它们混在一起相互抵消。"
+    },
+    {
+      "type": "bloodmagic:crafting_altar",
+      "heading": "炼金瓶",
+      "recipe": "bloodmagic:altar/alchemy_flask",
+      "text": "一个坚固的瓶子，容量远超任何微不足道的小瓶！"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "当然，一个瓶子，无论多么先进，如果没有东西填充它，几乎毫无用处。$(br2)除了所有常见的众所周知的$(thing)效果$()，如$(l:bloodmagic:alchemy_table/potion_flasks/vanilla/water_breathing)水下呼吸$()、$(l:bloodmagic:alchemy_table/potion_flasks/vanilla/regeneration)再生$()或$(l:bloodmagic:alchemy_table/potion_flasks/vanilla/night_vision)夜视$()，我们还完善了各种其他更专业的配方，例如$(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/flight)飞行$()、$(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/obsidian_cloak)黑曜石斗篷$()，甚至$(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/passive)被动$()。这些药水以及更多内容将在本书后续部分记录。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:alchemy_flask",
+      "text": "一旦你用完了任何一种炼金瓶，只需清洗并重新装满水，就能获得一个全新的、可供使用的瓶子。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "炼金瓶也有其对应的$(thing)喷溅型$()和$(thing)滞留型药水$()，见背面。$(br2)$(thing)滞留型药水$()可以在$(item)炼金反应室$()中与8个$(l:bloodmagic:demon_will/demonic_items/throwing_daggers#amethyst_throwing_dagger)紫水晶飞刀$()结合，制成$(item)附魔紫水晶飞刀$()。任何被这些飞刀击中的实体都会受到药水效果的影响。"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_flask",
+      "a.heading": "喷溅型炼金瓶",
+      "a.recipe": "bloodmagic:flask/flask_splash",
+      "b.heading": "滞留型炼金瓶",
+      "b.recipe": "bloodmagic:flask/flask_lingering"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "你可能还记得我提到过在一个$(item)炼金瓶$()中制作多种$(thing)效果$()的能力。幸运的是，这个过程再简单不过了。只需酿造一种药水，然后在第二次酿造时使用得到的瓶子代替你的空瓶子。例如，如果你制作了一个$(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/bounce)弹跳$()瓶子，然后拿这个瓶子作为$(l:bloodmagic:alchemy_table/potion_flasks/vanilla/night_vision)夜视$()瓶子的原料，你最终会得到一个8剂量的瓶子，每喝一口都能给你$(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/bounce)弹跳$()和$(l:bloodmagic:alchemy_table/potion_flasks/vanilla/night_vision)夜视$()效果！"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "接下来，我们有$(item)催化剂$()。催化剂有几种类型，具有几种不同的效果，所以让我们从最简单的三种开始——$(item)简易催化剂$()、$(item)小型强效催化剂$()和$(item)小型延长时间催化剂$()。其中，第一种最直接——它为几乎所有的炼金药水提供了基础，就像$(item)下界疣$()对于标准药水一样。"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "简易催化剂",
+      "recipe": "bloodmagic:alchemytable/simple_catalyst",
+      "text": "几乎是所有效果的良好基础。多备一些，你会需要很多的。"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "小型强效催化剂",
+      "recipe": "bloodmagic:alchemytable/mundane_power",
+      "text": "强效催化剂会增加瓶子中最顶层效果的强度，同时减少效果的持续时间。它大致类似于更标准药水中的$(item)荧石$()。如果最近应用的效果不能接受该催化剂，它将尝试增强第二顶层效果，依此类推。"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "小型延长时间催化剂",
+      "recipe": "bloodmagic:alchemytable/mundane_lengthening",
+      "text": "延长时间催化剂会增加瓶子中最顶层效果的持续时间。它大致类似于更标准药水中的$(item)红石$()。如果最近应用的效果不能接受该催化剂，它将尝试增强第二顶层效果，依此类推。"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "组合催化剂",
+      "recipe": "bloodmagic:alchemytable/combinational",
+      "text": "$(item)组合催化剂$()用途稍微特殊一些——它们取两种定义好的效果，并从中合成出第三种相关的效果。例如，一个含有$(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/suspended)悬浮$()和$(l:bloodmagic:alchemy_table/potion_flasks/vanilla/levitation)飘浮$()的瓶子，当用此催化剂酿造时，会产生一个$(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/flight)飞行$()瓶子。"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "弱效填充剂",
+      "recipe": "bloodmagic:alchemytable/weak_filling",
+      "text": "填充剂可用于刷新瓶子的内容物，代价是失去一些效果——弱效填充剂只能保留瓶子上最顶层的效果。如果你希望保留不同的效果，请考虑使用$(item)简易循环催化剂$()。"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "简易循环催化剂",
+      "recipe": "bloodmagic:alchemytable/cycling_catalyst",
+      "text": "循环催化剂可用于改变瓶子内效果的顺序，从而改变受其他催化剂或剂影响的效果。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "药水酿造 201",
+      "anchor": "average_potions",
+      "text": "如果你迄今为止酿造的药水还不够满足你，那么也许你需要做一些探索？用一些$(item)发光浆果$()、一些$(item)深板岩圆石$()和少许$(l:bloodmagic:dungeons/demonite)地狱锻造沙$()，你可以显著提升瓶子的持续时间和强度。"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "强化催化剂",
+      "recipe": "bloodmagic:alchemytable/strengthened_catalyst",
+      "text": "一个更强大的基础，用于制造更强大的催化剂。"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "标准延长时间",
+      "recipe": "bloodmagic:alchemytable/average_lengthening",
+      "text": "标准延长时间催化剂会将最顶层效果的持续时间从3:00增加到21:20。乘以每个瓶子提供的8个剂量，那可是相当长的时间！"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "标准强效催化剂",
+      "recipe": "bloodmagic:alchemytable/average_power",
+      "text": "标准强效催化剂是小型强效催化剂的增强版，允许你在瓶子中获得高达III级的药水效果，同时将每个剂量的持续时间减少到仅45秒。"
+    }
+  ]
+}

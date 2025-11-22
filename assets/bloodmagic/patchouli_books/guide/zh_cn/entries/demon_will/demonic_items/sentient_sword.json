@@ -1,0 +1,17 @@
+{
+  "name": "感知巨剑",
+  "icon": "bloodmagic:soulsword",
+  "category": "bloodmagic:demon_will/demonic_items",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)感知巨剑$()是收集$(l:bloodmagic:demon_will/will_manipulation/demon_will)恶魔意志$()比$(l:bloodmagic:demon_will/will_manipulation/soul_snare)灵魂陷阱$()所能期望的更有效的工具。它起初可能看起来很弱，但它由你携带的意志驱动，因此制作一个$(l:bloodmagic:demon_will/will_manipulation/soul_gem)地狱灵魂宝石$()是必须的。$(br2) 请注意，这把剑，与所有$(l:bloodmagic:demon_will/demonic_items/sentient_tools)感知工具$()一样，可以在铁砧中用$(l:bloodmagic:demon_will/will_manipulation/crystallized_will)结晶意志$()修复。"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "感知巨剑",
+      "recipe": "bloodmagic:soulforge/sentientsword",
+      "text": "这把剑将为你很好地服务。$(br2)注意，你可以在装备它时按下[$(k:use)]来更新剑的属性——如果你最近获得了大量$(raw)意志$()，或者可能是第一次尝试新的意志属性，那么这可能是个好主意。"
+    }
+  ]
+}

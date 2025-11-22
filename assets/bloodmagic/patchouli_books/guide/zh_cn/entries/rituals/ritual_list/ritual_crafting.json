@@ -1,0 +1,111 @@
+{
+  "name": "锻砧律动",
+  "icon": "minecraft:crafting_table",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "锻砧律动",
+      "multiblock_id": "bloodmagic:crafting",
+      "text": "使用$(l:bloodmagic:rituals/ritual_diviner#dusk)仪式占卜器[薄暮]$(/l)以方便建造。"
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "crafting",
+    "text_overrides": [
+      ["物品过滤器", "l:bloodmagic:demon_will/item_routing/standard_item_filter"]
+    ]
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)锻砧律动$()是一个强大且多功能的仪式，允许你自动合成标准工作台配方，以及使用你的$(l:bloodmagic:alchemy_table/alchemy_table)炼金台$()或$(l:bloodmagic:demon_will/will_manipulation/soul_forge)狱火锻炉$()（如果经过适当增强）的配方。然而，它可能有点复杂，因此接下来是设置教程。$(br2)每个仪式只能处理一个配方。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "首先，我们需要指定希望仪式合成的配方。这是通过使用物品过滤器完成的。$(br2)可以使用多种类型的物品过滤器，但仪式一次只能接受一个过滤器；任何额外的过滤器将被忽略。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "接受以下过滤器：$(li)标准物品过滤器：精确指定每个槽位使用哪个物品。$(li)标签物品过滤器：使用$(thing)标签$()来指定使用哪些物品。例如，如果一个配方需要任何种类的石头（但可以使用安山岩、花岗岩等），你可以在过滤器中使用`forge:stone`。$(li)模组物品过滤器：这将尝试使用该模组中的任何物品来填充此槽位。"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/ritual/autocraft/filter_pickaxe.png"
+      ],
+      "title": "过滤器示例",
+      "border": true,
+      "text": "一个配置用于自动合成$(item)石镐$()的标准物品过滤器。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "接下来，必须将物品过滤器放置在仪式上。在此图像中我们使用了$(item)物品展示框$()，但也可以使用箱子。请注意，如果你在箱子中放入多个$(item)过滤器$()，只有第一个会被使用。$(br2)默认情况下，输入箱子和输出箱子在同一位置；但是，这可以通过$(l:bloodmagic/rituals/ritual_tinkerer)仪式调试器$()来改变。这对于重复使用某些组件的配方（例如你的$(l:bloodmagic:altar/soul_network)血之宝珠$()）非常有用。"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/ritual/autocraft/default_placement.png",
+        "bloodmagic:images/entries/ritual/autocraft/optional_placement.png"
+      ],
+      "title": "放置过滤器",
+      "border": true,
+      "text": "位于正常位置的过滤器和箱子，以及一个经过$(l:bloodmagic/rituals/ritual_tinkerer)调试$()的、带有独立输入输出箱子的仪式"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "如果你为仪式提供$(steadfast)坚毅$()或$(corrosive)腐蚀$()意志，那么仪式将分别尝试使用链接的$(l:bloodmagic:demon_will/will_manipulation/soul_forge)狱火锻炉$()或$(l:bloodmagic:alchemy_table/alchemy_table)炼金台$()进行自动合成。这些配方都是无形状的，但如果你需要2个某物品，你必须在过滤器中指定两次。"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/ritual/autocraft/catalyst_recipe.png"
+      ],
+      "title": "炼金过滤器",
+      "border": true,
+      "text": "一个配置用于合成$(l:bloodmagic:alchemy_table/potions)简易催化剂$()的过滤器。"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "crafting",
+      "page_type": "recipeRange",
+      "text_overrides": [
+        ["物品过滤器", "l:bloodmagic:demon_will/item_routing/standard_item_filter"]
+      ],
+      "text": "支持$(l:bloodmagic:demon_will/item_routing/standard_item_filter)标准$()、$(l:bloodmagic:demon_will/item_routing/tag_item_filter)标签$()和$(l:bloodmagic:demon_will/item_routing/mod_item_filter)模组物品过滤器$()。"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "crafting",
+      "page_type": "inputRange"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "crafting",
+      "page_type": "outputRange"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "crafting",
+      "page_type": "outputFilterRange",
+      "text_overrides": [
+        ["过滤器", "l:bloodmagic:demon_will/item_routing/standard_item_filter"]
+      ],
+      "text": "支持$(l:bloodmagic:demon_will/item_routing/standard_item_filter)标准$()、$(l:bloodmagic:demon_will/item_routing/tag_item_filter)标签$()和$(l:bloodmagic:demon_will/item_routing/mod_item_filter)模组物品过滤器$()。"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "crafting",
+      "page_type": "hellforgedRange"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "crafting",
+      "page_type": "steadfast"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "crafting",
+      "page_type": "corrosive"
+    }
+  ]
+}

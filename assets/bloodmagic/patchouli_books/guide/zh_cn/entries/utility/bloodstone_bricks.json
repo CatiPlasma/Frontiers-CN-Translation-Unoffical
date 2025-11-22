@@ -1,0 +1,16 @@
+{
+  "name": "血石砖",
+  "icon": "bloodmagic:largebloodstonebrick",
+  "category": "bloodmagic:utility",
+  "pages":[
+    {
+      "type": "patchouli:text",
+      "text": "$(item)血石砖$()是一种装饰性方块，并用作四级$(l:bloodmagic:altar/blood_altar)血之祭坛$()的$(thing)顶石$()。它们需要$(item)虚弱血碎片$()，这可以通过将一个$(l:bloodmagic:dungeons/tau_fruit)饱和Tau$()放入装有$(l:bloodmagic:utility/alchemical_reaction_chamber#blood_shard)血红还原器$()的$(l:bloodmagic:utility/alchemical_reaction_chamber)炼金反应室$()中来制造。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:largebloodstonebrick",
+      "recipe2": "bloodmagic:bloodstonebrick"
+    }
+  ]
+}

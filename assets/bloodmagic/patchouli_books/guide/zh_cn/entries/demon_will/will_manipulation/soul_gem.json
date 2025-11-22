@@ -1,0 +1,52 @@
+{
+  "name": "地狱灵魂宝石",
+  "icon": "bloodmagic:soulgemgreater",
+  "category": "bloodmagic:demon_will/will_manipulation",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l:bloodmagic:demon_will/will_manipulation/demon_will)恶魔意志$()是一种非常有用的资源，但你迄今为止获得的碎片明显缺乏力量。你需要的是一个存储物品；$(item)地狱灵魂宝石$()似乎正合适。更重要的是，它可以吸收你可能散落各处的任何残留$(l:bloodmagic:demon_will/will_manipulation/demon_will)恶魔意志$()。只需将它们扔到地上，你闪亮的新宝石就会吸收它们。"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "初级地狱灵魂宝石",
+      "recipe": "bloodmagic:soulforge/pettytartaricgem",
+      "text": "你的第一个宝石最多能容纳64点$(l:bloodmagic:demon_will/will_manipulation/demon_will)意志$()。比以前紧凑多了！$(br2)如果你想将$(raw)意志$()从一个宝石转移到另一个，只需在持有想要清空的宝石时按住[$(k:use)]，它就会将其意志转移到你物品栏中找到的第一个有效宝石中。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "你的$(item)初级地狱灵魂宝石$()是一个有用的工具，但它显然缺乏力量。通过用$(item)钻石$()、$(item)青金石$()和$(item)红石$()仔细加工它，你找到了一种将其存储能力翻两番的方法。"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "次级地狱灵魂宝石",
+      "recipe": "bloodmagic:soulforge/lessertartaricgem",
+      "text": "这种强化宝石最多可容纳256点$(l:bloodmagic:demon_will/will_manipulation/demon_will)意志$()。$(br2)注意：升级时只需要一个宝石 - $(item)地狱火锻炉$()会先从其正在合成的宝石中吸取$(raw)意志$()，然后再尝试使用其宝石插槽中宝石的意志。别担心，新制作的宝石将保留过程中任何剩余的$(raw)意志$()。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "你的$(item)次级地狱灵魂宝石$()是一个显著的改进，但再次地，你对其限制感到不满。要进一步发展，需要专注于你的$(l:bloodmagic:altar/blood_altar)血祭坛$()，因为你需要$(l:bloodmagic:altar/slates)灌魔石板$()的力量。将这种石板与你的宝石结合，并用另一颗$(item)钻石$()和一个$(item)金块$()进一步精炼，你找到了一种再次将其存储能力翻两番的方法。"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "普通地狱灵魂宝石",
+      "recipe": "bloodmagic:soulforge/commontartaricgem",
+      "text": "这种复杂的宝石可以容纳惊人的1,024点$(l:bloodmagic:demon_will/will_manipulation/demon_will)意志$()。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "你显然在创造$(item)普通地狱灵魂宝石$()时超越了自己，但你感觉你还能做得更多。然而，要从你的宝石中获得更多，需要你迄今为止所有工作的 culmination。你不仅需要一块$(l:bloodmagic:altar/slates)恶魔石板$()，还需要一块$(l:bloodmagic:utility/alchemical_reaction_chamber#blood_shard)次级血碎片$() $(o)和$()一块$(l:bloodmagic:demon_will/will_manipulation/crystallized_will)恶魔意志晶体$()。当然，它会带来与之相称的回报，以前所未有的方式为你的$(l:bloodmagic:demon_will/demonic_items/sentient_tools)感知工具$()供能..."
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "高级地狱灵魂宝石",
+      "recipe": "bloodmagic:soulforge/greatertartaricgem",
+      "text": "这件人工杰作可以容纳惊人的4,096点$(l:bloodmagic:demon_will/will_manipulation/demon_will)意志$()。"
+    },
+    {
+      "type": "patchouli:text",
+      "flag": "mod:curios",
+      "text": "由于你安装了$(thing)Curios API$()，你可以将$(item)地狱灵魂宝石$()作为项链装备。如果你想同时佩戴更多饰品，考虑使用$(l:bloodmagic:alchemy_array/sigil/holding)容纳印记$()，或者为你的$(l:bloodmagic:alchemy_array/living_equipment/living_basics)活体盔甲$()使用$(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/curios_sockets)插槽升级$()。"
+    }
+  ]
+}

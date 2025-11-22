@@ -1,0 +1,37 @@
+{
+  "name": "修复药膏",
+  "icon": "bloodmagic:weapon_repair_anointment",
+  "category": "bloodmagic:alchemy_table/anointments",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "修复药膏",
+      "recipe": "bloodmagic:alchemytable/weapon_repair_anointment",
+      "text": "使用工具时修复受损工具1点耐久。$(br2)有效物品：工具、剑。$(br2)施加效果：定期维护 I (256 个方块)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "修复药膏 L",
+      "recipe": "bloodmagic:alchemytable/weapon_repair_anointment_l",
+      "text": "此注魔的升级版本持续时间延长四倍。$(br2)施加效果：定期维护 I (1024 个方块)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "修复药膏 II",
+      "recipe": "bloodmagic:alchemytable/weapon_repair_anointment_2",
+      "text": "此注魔的升级版本每承受1点耐久消耗修复工具2点耐久。如果这样做会浪费部分修复效果，则不会激活。$(br2)施加效果：定期维护 II (256 个方块)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "修复药膏 XL",
+      "recipe": "bloodmagic:alchemytable/weapon_repair_anointment_xl",
+      "text": "此注魔的升级版本持续时间延长十六倍。$(br2)施加效果：定期维护 I (4096 个方块)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "修复药膏 III",
+      "recipe": "bloodmagic:alchemytable/weapon_repair_anointment_3",
+      "text": "此注魔的升级版本每承受1点耐久消耗修复工具3点耐久。如果这样做会浪费部分修复效果，则不会激活。$(br2)施加效果：定期维护 III (256 个方块)"
+    }
+  ]
+}

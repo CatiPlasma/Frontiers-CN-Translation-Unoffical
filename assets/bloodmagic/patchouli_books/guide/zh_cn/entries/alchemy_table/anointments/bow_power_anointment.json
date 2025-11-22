@@ -1,0 +1,37 @@
+{
+  "name": "铁质箭头",
+  "icon": "bloodmagic:bow_power_anointment",
+  "category": "bloodmagic:alchemy_table/anointments",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "铁质箭头",
+      "recipe": "bloodmagic:alchemytable/bow_power_anointment",
+      "text": "提高射出箭矢的伤害25%。可与原版附魔叠加。$(br2)有效物品：弓、弩。$(br2)施加效果：重箭 I (256 次射击)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "铁质箭头 L",
+      "recipe": "bloodmagic:alchemytable/bow_power_anointment_l",
+      "text": "此注魔的升级版本持续时间延长四倍。$(br2)施加效果：重箭 I (1024 次射击)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "铁质箭头 II",
+      "recipe": "bloodmagic:alchemytable/bow_power_anointment_2",
+      "text": "此注魔的升级版本改为提高伤害50%。$(br2)施加效果：重箭 II (256 次射击)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "铁质箭头 XL",
+      "recipe": "bloodmagic:alchemytable/bow_power_anointment_xl",
+      "text": "此注魔的升级版本持续时间延长十六倍。$(br2)施加效果：重箭 I (4096 次射击)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "铁质箭头 III",
+      "recipe": "bloodmagic:alchemytable/bow_power_anointment_3",
+      "text": "此注魔的升级版本改为提高伤害75%。$(br2)施加效果：重箭 III (256 次射击)"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "熔岩水晶",
+  "icon": "bloodmagic:lavacrystal",
+  "category": "bloodmagic:utility",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)熔岩水晶$()是一个强大的热源。介于其制造过程中使用的$(fire)熔岩$()和你的$(l:bloodmagic:altar/soul_network)灵魂网络$()的力量，你确信它永远不会冷却。$(br2) 看着世界中的任何方块按下[$(k:use)]键会点燃它，消耗100点生命能量。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:lava_crystal",
+      "text": "$(br)此外，如果放置在$(item)熔炉$()的燃料槽中，它将作为一个永久的$(thing)燃料源$()，消耗50点生命能量燃烧10秒钟，或者足够烹煮一个物品。"
+    }
+  ]
+}

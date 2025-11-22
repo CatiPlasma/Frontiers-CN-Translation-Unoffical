@@ -1,0 +1,6 @@
+{
+  "name": "原版药水效果",
+  "description": "这些效果可以通过标准的$(item)酿造台$()来复现，但显然效率远不能及。",
+  "icon": "minecraft:brewing_stand",
+  "parent": "bloodmagic:alchemy_table/potion_flasks"
+}

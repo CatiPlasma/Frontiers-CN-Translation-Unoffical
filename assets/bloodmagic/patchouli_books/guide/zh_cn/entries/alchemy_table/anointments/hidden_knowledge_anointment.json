@@ -1,0 +1,37 @@
+{
+  "name": "矿工秘识",
+  "icon": "bloodmagic:hidden_knowledge_anointment",
+  "category": "bloodmagic:alchemy_table/anointments",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "矿工秘识",
+      "recipe": "bloodmagic:alchemytable/hidden_knowledge_anointment",
+      "text": "成功收获掉落经验的方块时额外掉落经验。每个方块额外掉落+2经验。在掉落额外经验时消耗。$(br2)有效物品：工具、剑。$(br2)施加效果：矿工秘识 I (256 个掉落经验的方块)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "矿工秘识 L",
+      "recipe": "bloodmagic:alchemytable/hidden_knowledge_anointment_l",
+      "text": "此注魔的升级版本持续时间延长四倍。$(br2)施加效果：矿工秘识 I (1024 个掉落经验的方块)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "矿工秘识 II",
+      "recipe": "bloodmagic:alchemytable/hidden_knowledge_anointment_2",
+      "text": "此注魔的升级版本将产量提高至每个方块+4经验。$(br2)施加效果：矿工秘识 II (256 个掉落经验的方块)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "矿工秘识 XL",
+      "recipe": "bloodmagic:alchemytable/hidden_knowledge_anointment_xl",
+      "text": "此注魔的升级版本持续时间延长十六倍。$(br2)施加效果：矿工秘识 I (4096 个掉落经验的方块)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "矿工秘识 III",
+      "recipe": "bloodmagic:alchemytable/hidden_knowledge_anointment_3",
+      "text": "此注魔的升级版本将产量提高至每个方块+6经验。$(br2)施加效果：矿工秘识 III (256 个掉落经验的方块)"
+    }
+  ]
+}

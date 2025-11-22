@@ -1,0 +1,55 @@
+{
+  "name": "恶魔意志属性",
+  "icon": "bloodmagic:vengefulcrystal",
+  "category": "bloodmagic:demon_will/will_manipulation",
+  "extra_recipe_mappings": {
+    "bloodmagic:steadfastdemoncrystal": 2,
+    "bloodmagic:corrosivedemoncrystal": 2,
+    "bloodmagic:destructivedemoncrystal": 2,
+    "bloodmagic:vengefuldemoncrystal": 2,
+    "bloodmagic:steadfastcrystal": 2,
+    "bloodmagic:corrosivecrystal": 2,
+    "bloodmagic:destructivecrystal": 2,
+    "bloodmagic:vengefulcrystal": 2,
+    "bloodmagic:basemonstersoul_vengeful": 2,
+    "bloodmagic:basemonstersoul_corrosive": 2,
+    "bloodmagic:basemonstersoul_steadfast": 2,
+    "bloodmagic:basemonstersoul_destructive": 2
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "将$(l:bloodmagic:demon_will/will_manipulation/demon_will)恶魔意志$()释放到大气中绝对是个绝妙的主意。它不仅被证明在增强$(item)仪式$()方面非常有用，你还成功地将其浓缩成$(l:bloodmagic:demon_will/will_manipulation/crystallized_will)结晶簇$()，并在思考接下来该研究什么。$(br2)这些$(item)晶体$()让你感觉有些...矛盾。某个$(l:bloodmagic:rituals/ritual_list/ritual_crystal_split)仪式$()可能有助于将它们 coax 成更纯净的形式..."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/demon_will/will_splitting.png"
+      ],
+      "title": "意志属性",
+      "border": true,
+      "text": "正在运作的$(l:bloodmagic:rituals/ritual_list/ritual_crystal_split)多面晶体共鸣$()仪式。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "现在我们有了四种辛辣新口味的$(item)结晶意志$()！在$(water)水符文$()上我们有$(steadfast)坚韧意志$()，在$(air)风符文$()上我们得到$(destructive)毁灭意志$()，在$(fire)火符文$()上出现$(vengeful)复仇意志$()，而在$(earth)土符文$()上我们找到$(corrosive)腐蚀意志$()。$(br2)这些各种各样的新型意志可以像原始意志一样在$(item)恶魔熔炉$()中燃烧，并由此输入各种仪式，产生巨大而迷人的效果。"
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "sentient_aspects",
+      "text": "然而，它们也会改变你的感知工具的行为，使其更加强大。$(br) $(li)$(raw)原始意志$()：增加伤害。$(corrosive)$(li)腐蚀意志$()：攻击有几率对敌人施加中毒或凋零效果，其他方面与$(raw)原始$()相同。$(vengeful)$(li)复仇意志$()：增加伤害，但不如$(raw)原始$()多。增加攻击速度。给予移动速度增益，该增益随意志量增加而增强。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(steadfast)$(li)坚韧意志$()：增加伤害（但不如$(raw)原始$()多）并在击杀后授予伤害吸收。$(destructive)$(li)毁灭意志$()：比任何其他意志类型都更增加伤害，但会降低攻击速度。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "你可能想知道：“我到底怎样才能把这些意志变成可用的形式？”嗯，答案很简单。只需将一个空的$(l:bloodmagic:demon_will/will_manipulation/soul_gem)地狱灵魂宝石$()放入与$(item)恶魔熔炉$()同区块的$(l:bloodmagic:demon_will/will_manipulation/soul_forge)地狱火锻炉$()中，然后用所需属性的意志晶体喂养恶魔熔炉。你的$(l:bloodmagic:demon_will/will_manipulation/soul_gem)地狱灵魂宝石$()将充满该属性的意志。你可以通过手持它们时按下[$(k:use)]来改变你的$(raw)感知工具$()使用的意志种类。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "请注意，你的$(item)感知工具$()将采用你物品栏中数量最多的$(raw)意志$()的属性。如果你在一个$(l:bloodmagic:demon_will/will_manipulation/soul_gem)地狱灵魂宝石$()中携带10点$(corrosive)腐蚀意志$()，在另一个中携带1,000点$(raw)原始意志$()，那么你的剑将保持$(raw)原始$()属性。$(br2)$(l:bloodmagic:demon_will/will_manipulation/soul_forge)地狱火锻炉$()可以接受任何种类的$(raw)意志$()进行合成，所以不必担心需要在不同的$(item)地狱灵魂宝石$()之间 juggle 多种类型的意志。"
+    }
+  ]
+}

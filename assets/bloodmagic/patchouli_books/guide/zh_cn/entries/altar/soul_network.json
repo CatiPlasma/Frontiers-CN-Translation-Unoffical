@@ -1,0 +1,43 @@
+{
+  "name": "灵魂网络",
+  "icon": "bloodmagic:weakbloodorb",
+  "category": "bloodmagic:altar",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)灵魂网络$()是将你的$(thing)灵魂$()与你所有绑定的物品、仪式和方块连接起来的网络。从功能上讲，它是每个玩家独有的$(blood)LP$()全局存储，可以使用玩家的绑定物品作为中介进行存取。当你首次按下[$(k:use)]使用可以绑定到$(thing)灵魂网络$()的物品时，它将会绑定给你，并标记为"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "由你\"拥有\"。因此，该物品执行的任何具有$(blood)LP消耗$()的操作都将从你的$(thing)灵魂网络$()中抽取。在某些情况下，如果物品无法从$(thing)灵魂网络$()获取$(blood)LP$()，它将转而直接从你的生命值中扣除$(blood)LP$()成本。$(br2)在其他情况下（例如当正在进行的$(thing)仪式$()完全抽干你的网络时），它们只会导致持续的反胃效果，直到仪式被停用或你的$(thing)灵魂网络$()被重新填满。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "为了填充你的$(thing)灵魂网络$()，你需要制作一个$(item)气血宝珠$()。$(br2)气血宝珠可以通过以下两种方式之一充能$(blood)LP$()。$(li)玩家可以通过手持$(item)气血宝珠$()按下[$(k:use)]来献祭1心生命值，为绑定的$(thing)灵魂网络$()提供$(blood)200 LP$()。$(li)$(item)气血宝珠$()可以放入含有一些$(blood)生命源质$()的$(l:bloodmagic:altar/blood_altar)血之祭坛$(/l)中。宝珠会尽可能快地吸收生命源质，速度受你的祭坛的$(item)速度符文$()限制。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "对应$(item)血之祭坛$()的每个等级，可以制作一个单独的$(item)气血宝珠$()。它们的配方记录在背面。$(li)$(item)虚弱气血宝珠$() - 最大容量: $(blood)5k LP$()。$(li)$(item)学徒气血宝珠$() - 最大容量: $(blood)25k LP$()。$(li)$(item)法师气血宝珠$() - 最大容量: $(blood)150k LP$()。$(li)$(item)导师气血宝珠$() - 最大容量: $(blood)1M LP$()。$(li)$(item)创造气血宝珠$() - 最大容量: $(blood)10M LP$()。"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_altar",
+      "a.heading": "虚弱气血宝珠",
+      "a.recipe": "bloodmagic:altar/weakbloodorb",
+      "b.heading": "学徒气血宝珠",
+      "b.recipe": "bloodmagic:altar/apprenticebloodorb"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_altar",
+      "a.heading": "法师气血宝珠",
+      "a.recipe": "bloodmagic:altar/magicianbloodorb",
+      "b.heading": "导师气血宝珠",
+      "b.recipe": "bloodmagic:altar/masterbloodorb"
+    },
+    {
+      "type": "bloodmagic:crafting_altar",
+      "heading": "创造气血宝珠",
+      "recipe": "bloodmagic:altar/archmagebloodorb",
+      "text": "如果这$(blood)LP存储$()对你来说还不够，可以考虑使用$(l:bloodmagic:altar/blood_rune/orb_rune)宝珠符文$()。"
+    }
+  ]
+}

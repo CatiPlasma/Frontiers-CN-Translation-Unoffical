@@ -1,0 +1,6 @@
+{
+  "name": "恶魔意志",
+  "description": "$(item)恶魔意志$()是你能用$(blood)血魔法$()制造的首批物品之一。一旦你用$(l:bloodmagic:demon_will/will_manipulation/soul_snare)灵魂捕网$()收集到一些，你就能制作一枚$(l:bloodmagic:demon_will/will_manipulation/soul_gem)次级地狱宝石$()和一把$(l:bloodmagic:demon_will/demonic_items/sentient_sword)活体剑$(/l)$()。",
+  "icon": "bloodmagic:basemonstersoul",
+  "sortnum": 3
+}

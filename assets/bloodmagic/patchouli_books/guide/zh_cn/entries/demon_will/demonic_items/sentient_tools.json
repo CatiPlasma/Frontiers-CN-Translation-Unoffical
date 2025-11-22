@@ -1,0 +1,47 @@
+{
+  "name": "感知工具",
+  "icon": "bloodmagic:soulpickaxe",
+  "category": "bloodmagic:demon_will/demonic_items",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l:bloodmagic:demon_will/demonic_items/sentient_sword)感知巨剑$()已被证明是一个巨大的成功。你发现自己想知道其他工具经过类似处理后会有什么反应... $(br2) 请注意，这些工具，与$(l:bloodmagic:demon_will/demonic_items/sentient_sword)感知巨剑$()一样，可以在铁砧中用$(l:bloodmagic:demon_will/will_manipulation/crystallized_will)结晶意志$()修复。$(br2)我们提到过感知工具和武器都高度可附魔吗？"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "感知镐",
+      "recipe": "bloodmagic:soulforge/sentientpickaxe",
+      "text": "这把镐随意志增强，能轻松切割石头。没有意志驱动时，它仅比制作它所用的$(item)铁镐$()稍好一些；然而，凭借足够满的$(l:bloodmagic:demon_will/will_manipulation/soul_gem)地狱灵魂宝石$()，你预见到它将超越甚至$(item)下界合金镐$()。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(item)感知镰刀$()与其铁质对应物略有不同。用意志灌注它，已将其转变为一种可怕的武器。虽然速度较慢且不如其他武器强大，但其巨大的挥砍会对范围内的所有敌人造成全额伤害，使其成为群体控制的绝佳选择。"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "感知镰刀",
+      "recipe": "bloodmagic:soulforge/sentientscythe",
+      "text": "与镐一样，没有意志驱动你的镰刀时，它相对钝拙且笨重；然而，凭借足够满的$(l:bloodmagic:demon_will/will_manipulation/soul_gem)地狱灵魂宝石$()，你预见到它将成为一种毁灭性的工具。$(br)我们提到过它仍然可以作为锄头使用吗？"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "很像$(item)感知镐$()，$(item)感知斧$()相比其铁质对应物有显著改进。此外，它的伤害输出获得了显著增益，使其成为对于那些不介意其笨重特性的人来说的一种可怕武器。"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "感知斧",
+      "recipe": "bloodmagic:soulforge/sentientaxe",
+      "text": "与镐一样，没有意志驱动你的斧头时，它仅比制作它所用的$(item)铁斧$()稍好一些；然而，凭借足够满的$(l:bloodmagic:demon_will/will_manipulation/soul_gem)地狱灵魂宝石$()，你预见到它将超越甚至$(item)下界合金斧$()。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "很像$(item)感知镐$()，$(item)感知锹$()相比其铁质对应物有显著改进，即使没有额外的$(l:bloodmagic:demon_will/will_manipulation/demon_will)恶魔意志$()驱动。"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "感知锹",
+      "recipe": "bloodmagic:soulforge/sentientshovel",
+      "text": "与镐一样，没有意志驱动你的锹时，它仅比制作它所用的$(item)铁锹$()稍好一些；然而，凭借足够满的$(l:bloodmagic:demon_will/will_manipulation/soul_gem)地狱灵魂宝石$()，你预见到它将超越甚至$(item)下界合金锹$()。"
+    }
+  ]
+}

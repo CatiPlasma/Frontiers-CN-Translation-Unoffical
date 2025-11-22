@@ -1,0 +1,15 @@
+{
+  "name": "镀金",
+  "icon": "minecraft:golden_chestplate",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_upgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "效果：被动化猪灵，如同穿着金盔甲一样。$(br2)训练方式：给予猪灵一个$(item)金锭$()。你必须直接交给它们，不能丢在地上。$(br2)最高等级：1"
+    },
+    {
+      "type": "bloodmagic:living_armour_upgrade_table",
+      "upgrade": "bloodmagic:gilded"
+    }
+  ]
+}

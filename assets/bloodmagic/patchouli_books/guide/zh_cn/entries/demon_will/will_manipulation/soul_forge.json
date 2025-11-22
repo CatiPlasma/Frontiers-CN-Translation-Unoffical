@@ -1,0 +1,15 @@
+{
+  "name": "地狱火锻炉",
+  "icon": "bloodmagic:soulforge",
+  "category": "bloodmagic:demon_will/will_manipulation",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)地狱火锻炉$()是$(blood)血魔法$()的核心合成机制之一，与$(l:bloodmagic:altar/blood_altar)血祭坛$(/l)本身并列。在这里，你可以加工从生物身上收获的$(l:bloodmagic:demon_will/will_manipulation/demon_will)恶魔意志$()，使你能够创建$(l:bloodmagic:demon_will/demonic_items/sentient_tools)感知工具$()，包括$(l:bloodmagic:demon_will/demonic_items/sentient_sword)感知巨剑$()、$(l:bloodmagic:demon_will/will_manipulation/soul_gem)地狱灵魂宝石$()、各种$(item)试剂$()、$(l:bloodmagic:alchemy_array/functional_arrays/arcane_ash)奥术灰烬$()以及许多其他东西。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:soul_forge"
+    }
+  ]
+}

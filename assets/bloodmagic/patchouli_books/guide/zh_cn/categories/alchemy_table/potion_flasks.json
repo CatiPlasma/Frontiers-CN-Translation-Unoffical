@@ -1,0 +1,6 @@
+{
+  "name": "药水瓶",
+  "description": "世间存在着诸多不同的药水效果，为了方便整理，你已尝试按其来源将它们分门别类。",
+  "icon": "bloodmagic:alchemy_flask",
+  "parent": "bloodmagic:alchemy_table"
+}

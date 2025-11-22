@@ -1,0 +1,6 @@
+{
+  "name": "地下城探索",
+  "description": "执行$(l:bloodmagic:rituals/ritual_list/ritual_simple_dungeon)隐域边界$()仪式，以在$(thing)恶魔领域$()中获得一个立足点。这个危险的地方充满了威胁、陷阱和宝藏！",
+  "icon": "bloodmagic:simplekey",
+  "sortnum": 7
+}

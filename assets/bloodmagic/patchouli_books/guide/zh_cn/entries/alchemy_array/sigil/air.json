@@ -1,0 +1,19 @@
+{
+  "name": "空气印记",
+  "icon": "bloodmagic:airsigil",
+  "category": "bloodmagic:alchemy_array/sigil",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "将你朝面向的方向抛出，每次使用消耗$(blood)50 LP$()。请注意，这不会提供任何形式的摔落保护效果，所以着陆时务必小心！这是一个快速移动的好方法，尽管有些风险。许多粗心大意的法师在乡村上空飞行数英里时，因$(l:bloodmagic:altar/soul_network)灵魂网络$()中的$(blood)LP$()耗尽而殒命。"
+    },
+    {
+      "type": "bloodmagic:crafting_2-step_sigil",
+      "alchemy_table.heading": "空气试剂",
+      "alchemy_table.recipe": "bloodmagic:alchemytable/reagent_air",
+      "array.heading": "空气印记",
+      "array.recipe": "bloodmagic:array/airsigil",
+      "array.text": "$(italic)我已经感觉身轻如燕了……$()"
+    }
+  ]
+}

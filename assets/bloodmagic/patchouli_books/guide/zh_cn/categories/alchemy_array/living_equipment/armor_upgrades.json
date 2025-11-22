@@ -1,0 +1,6 @@
+{
+  "name": "活体护甲升级效果",
+  "description": "可用活体护甲升级效果列表。",
+  "icon": "bloodmagic:upgradetome",
+  "parent": "bloodmagic:alchemy_array/living_equipment"
+}

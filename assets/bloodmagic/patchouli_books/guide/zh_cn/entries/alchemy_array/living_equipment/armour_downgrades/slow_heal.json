@@ -1,0 +1,16 @@
+{
+  "name": "病弱",
+  "icon": "minecraft:ghast_tear",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_downgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "降低所有治疗来源的效果。最高可降低80%，因此原本能治疗10颗心的来源将只会治疗2颗心。"
+    },
+    {
+      "type": "bloodmagic:living_armour_downgrade",
+      "a.recipe": "bloodmagic:downgrade/slow_heal",
+      "b.upgrade": "bloodmagic:slow_heal"
+    }
+  ]
+}

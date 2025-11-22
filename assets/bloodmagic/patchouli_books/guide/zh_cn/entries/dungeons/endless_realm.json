@@ -1,0 +1,51 @@
+{
+  "name": "无尽之境",
+  "icon": "bloodmagic:special_dungeon_seal",
+  "category": "bloodmagic:dungeons",
+  "extra_recipe_mappings": {
+    "bloodmagic:special_dungeon_seal": 0,
+    "bloodmagic:hellforgedparts": 3
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "与其小弟——$(l:bloodmagic:rituals/ritual_list/ritual_simple_dungeon)隐秘之境边缘$()仪式类似，你可以通过$(l:bloodmagic:rituals/ritual_list/ritual_standard_dungeon)通往无尽之境之路$()仪式进入真正的$(thing)恶魔领域$()。你会再次发现自己正注视着一根$(thing)反转支柱$()。与$(thing)前厅$()一样，你会发现一个粗心的恶魔（或者可能是个运气不佳的血法师）留下的简单战利品箱，以及若干门口，旁边还有"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "另一个能将你送回家的反转支柱。$(br2)这些地下城房间将充满比你在前厅遇到的更可怕的敌人，并有与之相配的战利品。务必留意任何$(thing)空间扭曲$()，以及稀有的$(l:bloodmagic:dungeons/keys)钥匙$()，例如$(item)工头钥匙$()。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "空间扭曲会通过聊天信息宣告自身的存在——如果你看到这些信息之一，意味着你所在的房间有一个非常特殊的锁。目前，它要么是通往$(thing)矿坑$()的入口，要么是藏有$(thing)工头钥匙$()的小房间的入口，后者可以用$(thing)铁钥匙$()打开。矿坑入口总是会在钥匙之前生成，所以可能需要往回走一些路。"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/dungeon/mine_key.png"
+      ],
+      "title": "工头钥匙",
+      "border": true,
+      "text": "这扇门可以用铁钥匙打开，后面藏着工头钥匙。"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/dungeon/mine_entrance.png"
+      ],
+      "title": "矿坑入口",
+      "border": true,
+      "text": "这扇门只能用工头钥匙打开。你可能需要原路返回！"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "工头钥匙允许进入$(thing)矿坑$()，那里的难度和奖励都更上一层楼。除了对高阶$(l:bloodmagic:alchemy_table/potions)药水酿造$()和$(l:bloodmagic:altar/blood_altar)五级血之祭坛$()及其配套的$(l:bloodmagic:altar/soul_network)宝珠$()至关重要的$(l:bloodmagic:dungeons/demonite)恶魔岩矿石$()外，你还会发现大量更普通的战利品、附魔武器和工具、注剂、药水等等。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:hellforgedparts",
+      "title": "精密地狱锻铸部件",
+      "text": "探索足够深入，你可能会幸运地找到$(item)精密地狱锻铸部件$()，它可以用来使你现有的$(item)符文$()效果翻倍。这就像在一个$(blood)血之祭坛$()里拥有了两个祭坛的力量！"
+    }
+  ]
+}

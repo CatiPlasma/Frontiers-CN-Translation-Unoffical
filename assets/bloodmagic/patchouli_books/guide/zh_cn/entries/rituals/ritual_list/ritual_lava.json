@@ -1,0 +1,97 @@
+{
+  "name": "下界小夜曲",
+  "icon": "minecraft:lava_bucket",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "下界小夜曲",
+      "multiblock_id": "bloodmagic:lava",
+      "text": "使用$(l:bloodmagic:rituals/ritual_diviner)仪式占卜器$(/l)以方便建造。"
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "lava",
+      "text_overrides": [
+        ["主仪式石", "l:bloodmagic:rituals/ritual_stones"]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "lava",
+      "page_type": "raw",
+      "text_overrides": [
+        ["生命能量", "blood"],
+        ["储罐", "item"]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "lava",
+      "page_type": "corrosive",
+      "text": "对抗下界居民时特别有用。"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "lava",
+      "page_type": "vengeful",
+      "text_overrides": [
+        ["火焰引信", "thing"]
+      ],
+      "text": "当减益效果结束时，它们将上演一场精彩的烟花表演。"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "lava",
+      "page_type": "destructive",
+      "text_overrides": [
+        ["毁灭意志", "destructive"]
+      ]
+    },
+        {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "lava",
+      "page_type": "steadfast",
+      "text_overrides": [
+        ["火焰保护", "thing"]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "lava",
+      "page_type": "lavaRange"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "lava",
+      "page_type": "fireDamage",
+      "text_overrides": [
+        ["腐蚀意志", "corrosive"]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "lava",
+      "page_type": "fireFuse",
+      "text_overrides": [
+        ["火焰引信", "thing"]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "lava",
+      "page_type": "fireResist",
+      "text_overrides": [
+        ["火焰保护", "thing"]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "lava",
+      "page_type": "lavaTank",
+      "text_overrides": [
+        ["储罐", "item"]
+      ]
+    }
+  ]
+}

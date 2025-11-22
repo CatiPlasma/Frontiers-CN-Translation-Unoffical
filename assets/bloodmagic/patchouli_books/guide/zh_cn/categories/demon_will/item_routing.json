@@ -1,0 +1,6 @@
+{
+  "name": "物品路由",
+  "description": "谁还需要漏斗？血魔法拥有一套多功能且灵活的物品路由网络，并提供多种过滤器以满足各种分类需求。",
+  "icon": "bloodmagic:noderouter",
+  "parent": "bloodmagic:demon_will"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "镶孔",
+  "icon": "bloodmagic:soulsnare",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_upgrades",
+  "flag": "mod:curios",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "为玩家添加$(thing)活体护甲镶孔$()饰品栏位，可用于容纳兼容的$(6)血魔法$()物品。$(br2)此升级无法训练，只能合成。默认情况下，每本$(l:bloodmagic:alchemy_array/living_equipment/living_tomes)升级典籍$()增加一个额外栏位。"
+    },
+    {
+      "type": "bloodmagic:crafting_upgrade_alchemy_table",
+      "a.heading": "镶孔典籍",
+      "a.recipe": "bloodmagic:alchemytable/curios_upgrade",
+      "b.upgrade": "bloodmagic:curios_socket"
+    }
+  ]
+}

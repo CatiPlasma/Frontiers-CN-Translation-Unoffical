@@ -1,0 +1,7 @@
+{
+  "name": "活体装备",
+  "description": "利用一些$(item)奥术之灰$()和这种全新的$(item)绑定试剂$()，一个充满防御与实用功能的新世界已在你面前展开。$(br)点击下方图标查看所有修饰符的列表。",
+  "icon": "bloodmagic:livinghelmet",
+  "parent": "bloodmagic:alchemy_array",
+  "sortnum": 2
+}

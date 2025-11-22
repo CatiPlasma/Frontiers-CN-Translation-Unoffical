@@ -1,0 +1,56 @@
+{
+  "name": "前厅",
+  "icon": "bloodmagic:dungeon_seal",
+  "category": "bloodmagic:dungeons",
+  "extra_recipe_mappings": {
+    "bloodmagic:inversion_pillar": 0,
+    "bloodmagic:dungeon_seal": 0,
+    "bloodmagic:dungeon_controller": 0,
+    "bloodmagic:inversion_pillar_cap": 0,
+    "bloodmagic:dungeon_brick3": 1,
+    "bloodmagic:dungeon_brick2": 1,
+    "bloodmagic:dungeon_brick1": 1,
+    "bloodmagic:dungeon_brick_assorted": 1,
+    "bloodmagic:dungeon_stone": 1,
+    "bloodmagic:dungeon_eye": 1,
+    "bloodmagic:dungeon_polished": 1,
+    "bloodmagic:dungeon_tile": 1,
+    "bloodmagic:dungeon_tilespecial": 1,
+    "bloodmagic:dungeon_smallbrick": 1,
+    "bloodmagic:dungeon_brick_stairs": 1,
+    "bloodmagic:dungeon_polished_stairs": 1,
+    "bloodmagic:dungeon_pillar_center": 1,
+    "bloodmagic:dungeon_pillar_special": 1,
+    "bloodmagic:dungeon_pillar_cap": 1,
+    "bloodmagic:dungeon_brick_wall": 1,
+    "bloodmagic:dungeon_polished_wall": 1,
+    "bloodmagic:dungeon_brick_gate": 1,
+    "bloodmagic:dungeon_polished_gate": 1,
+    "bloodmagic:dungeon_brick_slab": 1,
+    "bloodmagic:dungeon_tile_slab": 1,
+    "bloodmagic:dungeon_regular_cracked_brick1": 1,
+    "bloodmagic:dungeon_cracked_brick1": 1,
+    "bloodmagic:dungeon_emitter": 1,
+    "bloodmagic:dungeon_alternator": 1,
+    "bloodmagic:spikes": 1,
+    "bloodmagic:dungeon_spike_trap": 1
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "当你完成$(l:bloodmagic:rituals/ritual_list/ritual_simple_dungeon)隐秘之境边缘$()仪式后，你会发现自己正注视着一根$(thing)反转支柱$()。右键点击此支柱将被传送到前厅，这是你首次涉足$(thing)恶魔领域$()。$(br)在这第一个房间里有几点需要注意：$(li)一个宝藏箱，内含一些基本战利品，如果运气好，还有几把$(l:bloodmagic:dungeons/keys)铁钥匙$()。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)其次，有若干$(thing)门口$()，每个都被$(thing)地下城封印$()锁住。对这些封印使用$(item)钥匙$()来解锁下一个房间。$(li)第三，一根$(item)反转支柱$()，与你之前召唤的那个相对应。使用[$(k:use)]键点击它可返回你的世界。$(br2)这里还有大量装饰性方块，如果你觉得你的基地需要一些炫酷装饰的话。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "你从前厅打开的任何额外房间都将包含战利品、怪物、陷阱以及可能一些未激活的仪式的组合。务必保持警惕！$(br2)你可能找到的一些战利品示例：$(li)附魔书 $(li)附魔武器和盔甲 $(li)$(l:bloodmagic:alchemy_table/anointments)各种注剂$() $(li)$(l:bloodmagic:demon_will/will_manipulation/demon_will)恶魔意志$() $(li)药水原料"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Tau果实 $(li)饱和Tau $(li)Tau油$(br2)所以，开始狩猎吧，同时留心宝藏和陷阱！"
+    }
+  ]
+}

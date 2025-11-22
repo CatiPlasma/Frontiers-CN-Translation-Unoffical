@@ -1,0 +1,30 @@
+{
+  "name": "Tau果实",
+  "icon": "bloodmagic:weak_tau",
+  "category": "bloodmagic:dungeons",
+  "extra_recipe_mappings": {
+    "bloodmagic:weak_tau": 0
+  },
+    "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Tau果实可以在$(l:bloodmagic:dungeons/lobby)简单地下城$()中找到，之后便可以种植。作为$(thing)恶魔领域$()的原生植物，不幸的是，它的生命周期比卑微的$(item)马铃薯$()要复杂一些。$(br2)Tau果实会根据其生长条件成熟为两个变种之一。默认情况下，它会长成$(item)Tau果实$()，可以转化为$(item)Tau油$()。"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Tau油",
+      "recipe": "bloodmagic:alchemytable/tau_oil",
+      "text": "$(italic)尝起来像血橙，但又不一样。$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Tau油目前有两个主要用途。它可以将任何$(l:bloodmagic:alchemy_table/anointments)注剂$()的持续时间延长四倍，或者可以用来合成$(item)中级切削液$()，其功能类似于$(l:bloodmagic:utility/alchemical_reaction_chamber#basic_cutting_fluid)基础切削液$()，但持续时间长八倍，并能提供25%的速度加成。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:strong_tau",
+      "link_recipe": "true",
+      "text": "然而，$(item)Tau果实$()有另一种更具挑战性的生长途径。如果植株成熟时有一个$(thing)生物$()（例如一头牛）站在它上面，它会从该实体身上汲取生命以满足其黑暗的饥渴。通过这种方式，可以种植出$(item)饱和Tau$()。"
+    }
+  ]
+}

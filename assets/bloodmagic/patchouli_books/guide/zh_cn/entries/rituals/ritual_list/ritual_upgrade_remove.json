@@ -1,0 +1,21 @@
+{
+  "name": "净化灵魂之音",
+  "icon": "bloodmagic:upgradetome",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "净化灵魂之音",
+      "multiblock_id": "bloodmagic:upgrade_remove",
+      "text": "使用$(l:bloodmagic:rituals/ritual_diviner#dusk)仪式占卜器[薄暮]$(/l)以方便建造。"
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "upgrade_remove",
+      "text_overrides": [
+        ["活体盔甲", "l:bloodmagic:alchemy_array/living_equipment/living_basics"],
+        ["升级典籍", "l:bloodmagic:alchemy_array/living_equipment/living_tomes"]
+      ]
+    }
+  ]
+}

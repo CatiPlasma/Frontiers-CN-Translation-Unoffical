@@ -1,0 +1,102 @@
+{
+  "name": "炼金台",
+  "icon": "bloodmagic:alchemytable",
+  "category": "bloodmagic:alchemy_table",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)炼金台$()使用来自$(l:bloodmagic:altar/soul_network)灵魂网络$(/l)的$(blood)LP$()来合成物品。所使用的$(thing)灵魂网络$()和可用的配方等级由GUI右侧插入的$(item)血之宝珠$()决定。$(br2)$(item)炼金台$()用于合成少量$(6)血魔法$()组件，并为一些原版物品提供了替代配方。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:alchemy_table",
+      "text": "在本书（或$(thing)JEI$()中）查看$(item)炼金台$()配方时，请将鼠标悬停在带有\"LP\"标签的箭头上以查看时间、$(blood)LP$()消耗和等级信息。"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/alchemy_table/alchemy_table_gui.png"
+      ],
+      "title": "炼金台界面",
+      "border": true,
+      "text": "可以使用这些按钮向炼金台放入或从中取出物品。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(item)炼金台$()右侧有一些按钮。它们依次是$(bold)下$()、$(bold)上$()、$(bold)北$()、$(bold)南$()、$(bold)西$()和$(bold)东$()。要使用它们，首先点击炼金台中的任意槽位。（此处，我们选择了中央的‘成品’槽位作为演示。）接着，点击这六个按钮之一来切换$(item)炼金台$()是否允许来自该面的$(item)漏斗$()、管道或其他此类外部干涉。要恢复炼金台的正常功能，"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "只需再次点击该槽位即可取消选择。槽位中显示的图标表示它是接受输入还是提供输出。在示例图片中，我们只允许管道从$(bold)下$()方槽位取走我们中央槽位的物品，而尝试从其他面提取物品将不会成功。"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/alchemy_table/alchemy_table_orb_error.png",
+        "bloodmagic:images/entries/alchemy_table/alchemy_table_soul_error.png"
+      ],
+      "title": "炼金台错误",
+      "anchor": "errors",
+      "border": true,
+      "text": "当出现问题时，炼金台会告知你。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "配方在炼金台中无法工作的两个最常见原因如下：$(li)$(bold)宝珠错误$()：相关槽位中要么没有血之宝珠，要么你尝试使用的宝珠等级不足以执行此配方。$(li)$(bold)灵魂网络错误$()：宝珠等级有效，但要么你尚未将其绑定给自己（手持时右键点击），要么你的灵魂网络中没有足够的LP。$(br2)接下来的页面记录了炼金台当前可用的许多配方。"
+    },
+    {
+      "type": "bloodmagic:3x_crafting_alchemy_table",
+      "a.heading": "草方块",
+      "a.recipe": "bloodmagic:alchemytable/grass_block",
+      "b.heading": "皮革",
+      "b.recipe": "bloodmagic:alchemytable/leather_from_flesh",
+      "c.heading": "面包",
+      "c.recipe": "bloodmagic:alchemytable/bread"
+    },
+    {
+      "type": "bloodmagic:3x_crafting_alchemy_table",
+      "a.heading": "黏土",
+      "a.recipe": "bloodmagic:alchemytable/clay_from_sand",
+      "b.heading": "线",
+      "b.recipe": "bloodmagic:alchemytable/string",
+      "c.heading": "蜘蛛网",
+      "c.recipe": "bloodmagic:alchemytable/cobweb"
+    },
+    {
+      "type": "bloodmagic:3x_crafting_alchemy_table",
+      "a.heading": "植物油",
+      "a.recipe": "bloodmagic:alchemytable/plantoil_from_wheat",
+      "b.recipe": "bloodmagic:alchemytable/plantoil_from_carrots",
+      "c.recipe": "bloodmagic:alchemytable/plantoil_from_taters"
+    },
+    {
+      "type": "bloodmagic:3x_crafting_alchemy_table",
+      "a.heading": "植物油（续）",
+      "a.recipe": "bloodmagic:alchemytable/plantoil_from_beets",
+      "b.heading": "煤炭沙",
+      "b.recipe": "bloodmagic:alchemytable/sand_coal",
+      "c.heading": "爆炸粉末",
+      "c.recipe": "bloodmagic:alchemytable/explosive_powder"
+    },
+    {
+      "type": "bloodmagic:3x_crafting_alchemy_table",
+      "a.heading": "燧石",
+      "a.recipe": "bloodmagic:alchemytable/flint_from_gravel",
+      "b.heading": "硝石",
+      "b.recipe": "bloodmagic:alchemytable/saltpeter",
+      "c.heading": "火药",
+      "c.recipe": "bloodmagic:alchemytable/gunpowder"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_alchemy_table",
+      "a.heading": "熔岩桶",
+      "a.recipe": "bloodmagic:alchemytable/sigil_lava_bucket",
+      "b.heading": "水桶",
+      "b.recipe": "bloodmagic:alchemytable/sigil_water_bucket"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l:bloodmagic:alchemy_array/sigil/lava)熔岩$()和$(l:bloodmagic:alchemy_array/sigil/water)水印记$()在这两个配方中都不会被消耗。更重要的是，在任何炼金台配方中，$(item)水印记$()可以代替$(water)水桶$()使用。"
+    }
+  ]
+}

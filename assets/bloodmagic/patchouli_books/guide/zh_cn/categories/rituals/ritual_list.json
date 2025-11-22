@@ -1,0 +1,6 @@
+{
+  "name": "仪式列表",
+  "description": "当你拥有一个三级$(l:bloodmagic:altar/blood_altar)血之祭坛$()时，一些较为简单的$(thing)仪式$()即可使用；但更高级的仪式则需要$(dusk)黄昏符文$()，因此需要一个四级祭坛。$(br2)使用$(item)仪式推测仪$()来构筑仪式，用$(item)激活水晶$()来启动它们，并用$(item)仪式调试器$()进行微调。别忘了随时让你的$(thing)灵魂网络$()保持充盈！",
+  "icon": "bloodmagic:masterritualstone",
+  "parent": "bloodmagic:rituals"
+}

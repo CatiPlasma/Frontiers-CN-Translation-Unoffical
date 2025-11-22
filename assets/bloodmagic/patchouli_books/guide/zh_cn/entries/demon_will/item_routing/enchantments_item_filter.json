@@ -1,0 +1,30 @@
+{
+  "name": "附魔物品过滤器",
+  "icon": "bloodmagic:itemrouterfilterenchant",
+  "category": "bloodmagic:demon_will/item_routing",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)附魔物品过滤器$()让你可以通过物品可能（或可能没有）拥有的任何$(thing)附魔$()来对物品进行分类。它的操作类似于$(l:bloodmagic:demon_will/item_routing/standard_item_filter)标准物品过滤器$()，特别是在数量和允许/拒绝功能方面，但多了一些额外的按钮。"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "附魔物品过滤器",
+      "recipe": "bloodmagic:alchemytable/enchant_router_filter",
+      "text": "任何附魔书都适用于此配方。"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/routing/enchant_item_filter_gui.png"
+      ],
+      "title": "附魔过滤器 GUI",
+      "border": true,
+      "text": "注意'允许'按钮右侧的两个新按钮。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "第一个按钮允许你选择是匹配附魔物品上的$(thing)每一个附魔$()，$(thing)任意附魔$()，还是$(thing)某一个特定附魔$()。第二个按钮允许你指定是否关注等级。（例如，'保护 III' 对比 '保护'）。$(br2)如果你将$(thing)一个未附魔的物品$()放入过滤器中，你可以有效地允许或拒绝$(thing)任何类型的附魔$()被插入指定的库存或从其中移除。"
+    }
+  ]
+}

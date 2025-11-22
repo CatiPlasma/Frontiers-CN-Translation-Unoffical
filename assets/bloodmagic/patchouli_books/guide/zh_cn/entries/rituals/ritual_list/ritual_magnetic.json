@@ -1,0 +1,29 @@
+{
+  "name": "磁力仪式",
+  "icon": "minecraft:iron_ore",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "磁力仪式",
+      "multiblock_id": "bloodmagic:magnetism",
+      "text": "使用$(l:bloodmagic:rituals/ritual_diviner)仪式占卜器$(/l)以方便建造。"
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "magnetism"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "默认情况下，$()磁力仪式$()会从$(item)主仪式石$()向外搜索3格半径范围，直至基岩，以收集矿石。可以通过在主仪式石正下方放置昂贵的方块来增强此范围，如下所示：$(br)$(li)$(item)铁块$() - 7格。$(li)$(item)金块$() - 15格。$(li)$(item)钻石块$() - 31格。"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "magnetism",
+      "page_type": "placementRange",
+      "text_overrides": [
+        ["矿石", "item"]
+      ]
+    }
+  ]
+}

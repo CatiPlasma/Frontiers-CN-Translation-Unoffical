@@ -1,0 +1,22 @@
+{
+  "name": "神鹰礼赞",
+  "icon": "minecraft:feather",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "神鹰礼赞",
+      "multiblock_id": "bloodmagic:condor",
+      "text": "使用$(l:bloodmagic:rituals/ritual_diviner#dusk)仪式占卜器[薄暮]$(/l)以方便建造。"
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "condor"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "condor",
+      "page_type": "flightRange"
+    }
+  ]
+}

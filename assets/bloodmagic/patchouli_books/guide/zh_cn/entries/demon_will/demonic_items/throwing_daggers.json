@@ -1,0 +1,47 @@
+{
+  "name": "飞刀",
+  "icon": "bloodmagic:throwing_dagger",
+  "category": "bloodmagic:demon_will/demonic_items",
+  "extra_recipe_mappings": {
+    "bloodmagic:slate_ampoule": 3
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)弓$()和$(item)弩$()各有其优点，但说真的，筛$(item)沙砾$()找$(item)燧石$()和拔鸡毛取$(item)羽毛$()对你来说有失身份。这些闪亮（且极其锋利）的$(item)飞刀$()还有一些相当巧妙的效果，如果你自己这么说的话。"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "铁飞刀",
+      "recipe": "bloodmagic:soulforge/throwing_dagger",
+      "anchor": "iron_throwing_dagger",
+      "text": "$(item)铁飞刀$()是一种快速攻击，造成10点伤害并有适当的冷却时间。不仅如此，如果你身上有一些$(l:bloodmagic:demon_will/will_manipulation/demon_will)恶魔意志$()（无论是其原始形态，还是储存在$(l:bloodmagic:demon_will/will_manipulation/soul_gem)地狱灵魂宝石$()中），它会像$(l:bloodmagic:demon_will/demonic_items/sentient_sword)感知巨剑$()那样掉落$(raw)意志$()。"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "注射器飞刀",
+      "recipe": "bloodmagic:soulforge/throwing_dagger_syringe",
+      "anchor": "syringe_throwing_dagger",
+      "text": "$(item)注射器飞刀$()适用于那些对获取$(blood)生命源质$()比$(raw)意志$()更感兴趣的血法师。虽然它造成的伤害略低，但成本明显更低，并且被此武器杀死的敌人有几率掉落一个$(item)石板安瓿$()——如果它们足够健壮，可能会掉落更多。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:slate_ampoule",
+      "title": "石板安瓿",
+      "text": "这些令人愉快的小瓶可以在靠近$(l:bloodmagic:altar/blood_altar)血祭坛$()时被粉碎，以将$(blood)500 LP$()传输到祭坛中，在此过程中摧毁$(item)安瓿$()。这些收益不受你可能拥有的任何$(item)符文$()影响。"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "紫水晶飞刀",
+      "recipe": "bloodmagic:soulforge/throwing_dagger_copper",
+      "anchor": "amethyst_throwing_dagger",
+      "text": "$(item)紫水晶飞刀$()造成的伤害与$(item)铁飞刀$()一样多，但生物被杀死时不会掉落$(raw)意志$()。取而代之的是，可以在$(item)炼金反应室$()中用八把飞刀和一个$(l:bloodmagic:alchemy_table/potions)滞留炼金药瓶$()来制作$(item)浸渍紫水晶飞刀$()。"
+    },
+    {
+      "type": "bloodmagic:crafting_arc",
+      "heading": "浸渍飞刀",
+      "recipe": "bloodmagic:arc/tipped_copper",
+      "text": "这些飞刀会将它们的效果传递给任何被它们击中的生物，就像它们走进了$(item)滞留炼金药瓶$()留下的云雾一样。尝试组合效果，找出你能制作出的最令人虚弱、最邪恶的飞刀！"
+    }
+  ]
+}

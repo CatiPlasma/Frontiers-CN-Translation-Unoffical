@@ -1,0 +1,28 @@
+{
+  "name": "恶魔意志",
+  "icon": "bloodmagic:basemonstersoul",
+  "category": "bloodmagic:demon_will/will_manipulation",
+  "extra_recipe_mappings": {
+    "bloodmagic:basemonstersoul": 0
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "一旦你拥有了$(l:bloodmagic:altar/blood_altar)血祭坛$()，你将需要收集一些$(item)恶魔意志$()。有两种获取恶魔意志的方法：$(br)$(li)杀死一个被$(l:bloodmagic:demon_will/will_manipulation/soul_snare)灵魂陷阱$(/l)击中并在出现白色粒子效果时被杀死的生物。$(li)用$(l:bloodmagic:demon_will/demonic_items/sentient_sword)感知巨剑$()杀死敌对生物。$(br)由于你刚开始使用这个模组，你还不会有$(l:bloodmagic:demon_will/demonic_items/sentient_sword)感知巨剑$()，"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "因此需要使用$(l:bloodmagic:demon_will/will_manipulation/soul_snare)灵魂陷阱$()。$(br2)$(item)恶魔意志$()是$(blood)血魔法$()中的一种可再生资源，用于为$(l:bloodmagic:demon_will/will_manipulation/soul_forge)地狱火锻炉$()供能。$(br2)在$(blood)血魔法$()的设定中，$(raw)恶魔意志$()是恶魔将其意志注入死者或其他怪物体内时产生的残留效应。"
+    },
+    {
+      "type": "patchouli:image",
+      "images": ["bloodmagic:images/entries/demon_will/demon_will.png"],
+      "title": "恶魔意志",
+      "border": true
+    },
+    {
+      "type": "patchouli:text",
+      "text": "一旦你拥有了一些$(raw)意志$()，你就可以在$(l:bloodmagic:demon_will/will_manipulation/soul_forge)地狱火锻炉$()中使用它们来制作有用的工具。如果你发现它们弄乱了你的物品栏，也许一个$(l:bloodmagic:demon_will/will_manipulation/soul_gem)地狱灵魂宝石$()会有所帮助。"
+    }
+  ]
+}

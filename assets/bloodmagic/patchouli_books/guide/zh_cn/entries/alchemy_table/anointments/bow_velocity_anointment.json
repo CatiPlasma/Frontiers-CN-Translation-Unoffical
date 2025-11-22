@@ -1,0 +1,37 @@
+{
+  "name": "射手抛光剂",
+  "icon": "bloodmagic:bow_velocity_anointment",
+  "category": "bloodmagic:alchemy_table/anointments",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "射手抛光剂",
+      "recipe": "bloodmagic:alchemytable/bow_velocity_anointment",
+      "text": "提高射出箭矢的速度50%。这也会按比例增加箭矢造成的伤害。可与原版附魔叠加。$(br2)有效物品：弓、弩。$(br2)施加效果：狙击 I (256 次射击)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "射手抛光剂 L",
+      "recipe": "bloodmagic:alchemytable/bow_velocity_anointment_l",
+      "text": "此注魔的升级版本持续时间延长四倍。$(br2)施加效果：狙击 I (1024 次射击)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "射手抛光剂 II",
+      "recipe": "bloodmagic:alchemytable/bow_velocity_anointment_2",
+      "text": "此注魔的升级版本改为提高速度100%。$(br2)施加效果：狙击 II (256 次射击)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "射手抛光剂 XL",
+      "recipe": "bloodmagic:alchemytable/bow_velocity_anointment_xl",
+      "text": "此注魔的升级版本持续时间延长十六倍。$(br2)施加效果：狙击 I (4096 次射击)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "射手抛光剂 III",
+      "recipe": "bloodmagic:alchemytable/bow_velocity_anointment_3",
+      "text": "此注魔的升级版本改为提高速度150%。$(br2)施加效果：狙击 III (256 次射击)"
+    }
+  ]
+}

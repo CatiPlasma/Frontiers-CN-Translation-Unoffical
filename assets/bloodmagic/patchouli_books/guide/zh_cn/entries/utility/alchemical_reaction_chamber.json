@@ -1,0 +1,66 @@
+{
+  "name": "炼金反应室",
+  "icon": "bloodmagic:alchemicalreactionchamber",
+  "category": "bloodmagic:utility",
+  "pages": [
+     {
+      "type": "patchouli:text",
+      "text": "$(item)炼金反应室$()尚未完全实装，但除其他功能外，它可以作为$(thing)熔炉$()使用，提供一种$(l:bloodmagic:utility/ore_processing)三倍化处理矿石$()的方式，可以还原$(l:bloodmagic:altar/soul_network)气血宝珠$()、$(item)下界合金$()和$(item)强化符文$()，并且是目前获取$(blood)虚弱血碎片$()的唯一途径，特别是通过处理$(l:bloodmagic:dungeons/tau_fruit)饱和Tau$()获得。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:arc"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "血红还原器",
+      "recipe": "bloodmagic:soulforge/sanguine_reverter",
+	  "anchor": "blood_shard",
+      "text": "$(item)血红还原器$()用于制造$(blood)虚弱血碎片$()，并将$(l:bloodmagic:altar/soul_network)气血宝珠$()、$(item)下界合金$()和$(item)强化符文$()还原为它们的合成输入物品。"
+    },
+    {
+      "type": "bloodmagic:3x_crafting_arc",
+      "a.heading": "虚弱血碎片",
+      "a.recipe": "bloodmagic:arc/weakbloodshard_tau",
+      "b.heading": "还原虚弱气血宝珠",
+      "b.recipe": "bloodmagic:arc/reversion/weak_blood_orb",
+      "c.heading": "还原学徒气血宝珠",
+      "c.recipe": "bloodmagic:arc/reversion/apprentice_blood_orb"
+    },
+    {
+      "type": "bloodmagic:3x_crafting_arc",
+      "a.heading": "还原法师气血宝珠",
+      "a.recipe": "bloodmagic:arc/reversion/magician_blood_orb",
+      "b.heading": "还原导师气血宝珠",
+      "b.recipe": "bloodmagic:arc/reversion/master_blood_orb",
+      "c.heading": "还原下界合金",
+      "c.recipe": "bloodmagic:arc/reversion/netherite_ingot"
+    },
+    {
+      "type": "bloodmagic:crafting_arc",
+      "heading": "还原强化符文",
+      "recipe": "bloodmagic:arc/reversion/speed",
+      "text": "所有强化符文都可以通过这种方式还原——这只是一个示例。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "heading": "水合单元",
+      "recipe": "bloodmagic:primitive_hydration_cell",
+      "text": "水合单元用于制造黏土，这是平衡的基石。"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_arc",
+      "a.heading": "沙子制黏土",
+      "a.recipe": "bloodmagic:arc/clay_from_sand",
+      "a.fluid_input": "minecraft:water_bucket",
+      "b.heading": "陶瓦制黏土",
+      "b.recipe": "bloodmagic:arc/clay_from_terracotta",
+      "b.fluid_input": "minecraft:water_bucket"
+    },
+    {
+      "type": "patchouli:text",
+      "heading": "自动化",
+      "text": "如果你希望自动化ARC，也许作为$(l:bloodmagic:utility/ore_processing)三倍化处理矿石$()链条的一部分，你可能需要知道它是$(thing)有方向性$()的，很像一个$(item)熔炉$()。工具只能从顶部插入或提取，输入来自侧面，输出来自底部。在放置你的$(item)漏斗$()或$(l:bloodmagic:demon_will/item_routing/routing_nodes)路由节点$()时请记住这一点。"
+    }
+  ]
+}

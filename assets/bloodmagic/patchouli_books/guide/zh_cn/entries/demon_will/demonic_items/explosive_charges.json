@@ -1,0 +1,214 @@
+{
+  "name": "爆炸物",
+  "icon": "bloodmagic:shaped_charge",
+  "category": "bloodmagic:demon_will/demonic_items",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "对于那些拒绝胸怀大志的人来说，采矿和伐木固然不错，但哪个有自尊的血法师会屈尊做这些事呢？$(br2)考虑到这一点，你设计出了一些精巧的小装置。只需将它们扔向一些碍事的树木、岩石或任何你希望消失的东西，然后等待它们自爆即可。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "不仅如此，你还可以通过使用某些成分和一点$(raw)意志$()对它们进行$(item)涂油$()来增强其功能，正如每个条目后所描述的那样。$(br2)目前可用的涂油效果如下：$(li)时运 - 被破坏的方块受$(thing)时运$()影响。$(li)加热工具 - 被破坏的方块会被$(thing)冶炼$()。$(li)精准采集 - 被破坏的方块受$(thing)精准采集$()影响。$(li)湮灭 - '垃圾'方块会被湮灭而不是掉落为物品。"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "定向爆破炸药",
+      "recipe": "bloodmagic:soulforge/shaped_charge",
+      "anchor": "shaped_charge",
+      "text": "$(item)定向爆破炸药$()会摧毁一个5x5x5的立方体，其朝向取决于它落在方块的哪一面，所有被破坏的方块都会像用镐挖掘一样掉落。它甚至对黑曜石有效，并在过程中提供极其令人满意的$(o)轰隆$()声。"
+    },
+    {
+      "type": "bloodmagic:3x_crafting_soulforge",
+      "a.heading": "湮灭",
+      "a.recipe": "bloodmagic:soulforge/shaped_charge_voiding",
+      "b.heading": "加热工具",
+      "b.recipe": "bloodmagic:soulforge/shaped_charge_smelting",
+      "c.heading": "精准采集",
+      "c.recipe": "bloodmagic:soulforge/shaped_charge_silk_touch"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "时运",
+      "recipe": "bloodmagic:soulforge/shaped_charge_fortune_1"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "强化定向爆破炸药",
+      "recipe": "bloodmagic:soulforge/aug_shaped_charge",
+      "anchor": "shaped_charge_2",
+      "text": "$(item)强化定向爆破炸药$()是标准定向爆破炸药的直接升级。它会摧毁一个7x7x7的立方体，其朝向取决于它落在方块的哪一面，所有被破坏的方块都会像用镐挖掘一样掉落。它还可以被涂上$(thing)时运 II$()效果。"
+    },
+    {
+      "type": "bloodmagic:3x_crafting_soulforge",
+      "a.heading": "湮灭",
+      "a.recipe": "bloodmagic:soulforge/aug_shaped_charge_voiding",
+      "b.heading": "加热工具",
+      "b.recipe": "bloodmagic:soulforge/aug_shaped_charge_smelting_l",
+      "c.heading": "精准采集",
+      "c.recipe": "bloodmagic:soulforge/aug_shaped_charge_silk_touch_l"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_soulforge",
+      "a.heading": "时运",
+      "a.recipe": "bloodmagic:soulforge/aug_shaped_charge_fortune_1_l",
+      "b.heading": "时运 II",
+      "b.recipe": "bloodmagic:soulforge/aug_shaped_charge_fortune_2_l"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "隧道定向爆破炸药",
+      "recipe": "bloodmagic:soulforge/shaped_charge",
+      "anchor": "shaped_charge_tunneling",
+      "text": "$(item)隧道定向爆破炸药$()会摧毁一个5x5x20的隧道，其朝向取决于它落在方块的哪一面，所有被破坏的方块都会像用镐挖掘一样掉落。适合用于采矿。"
+    },
+    {
+      "type": "bloodmagic:3x_crafting_soulforge",
+      "a.heading": "湮灭",
+      "a.recipe": "bloodmagic:soulforge/shaped_charge_deep_voiding",
+      "b.heading": "加热工具",
+      "b.recipe": "bloodmagic:soulforge/shaped_charge_deep_smelting_l",
+      "c.heading": "精准采集",
+      "c.recipe": "bloodmagic:soulforge/shaped_charge_deep_silk_touch_l"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_soulforge",
+      "a.heading": "时运",
+      "a.recipe": "bloodmagic:soulforge/shaped_charge_deep_fortune_1_l",
+      "b.heading": "时运 II",
+      "b.recipe": "bloodmagic:soulforge/shaped_charge_deep_fortune_2_l"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "伐木炸药",
+      "recipe": "bloodmagic:soulforge/deforester_charge",
+      "anchor": "deforester_charge",
+      "text": "$(item)伐木炸药$()用于砍伐树木。它可以用于原木或树叶，能放倒除最巨大的树木之外的所有树木，一次最多破坏$(item)两组$()原木（并在此过程中 neatly 剥离它遇到的任何树叶！）。即使是丛林中的巨树也会在几秒钟内倒下。"
+    },
+    {
+      "type": "bloodmagic:3x_crafting_soulforge",
+      "a.heading": "湮灭",
+      "a.recipe": "bloodmagic:soulforge/deforester_charge_voiding",
+      "b.heading": "加热工具",
+      "b.recipe": "bloodmagic:soulforge/deforester_charge_smelting",
+      "c.heading": "精准采集",
+      "c.recipe": "bloodmagic:soulforge/deforester_charge_silk_touch"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "时运",
+      "recipe": "bloodmagic:soulforge/deforester_charge_fortune_1"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "伐木炸药 II",
+      "recipe": "bloodmagic:soulforge/deforester_charge_2",
+      "anchor": "deforester_charge_2",
+      "text": "$(item)伐木炸药 II$()，很像标准的伐木炸药，用于破坏木材和树木。它最多可以破坏8x64个原木，清除所有连接的树叶。非常适合在你可能看上的任何黑森林或丛林中为自己开辟出一片空地。"
+    },
+    {
+      "type": "bloodmagic:3x_crafting_soulforge",
+      "a.heading": "湮灭",
+      "a.recipe": "bloodmagic:soulforge/deforester_charge_voiding",
+      "b.heading": "加热工具",
+      "b.recipe": "bloodmagic:soulforge/deforester_charge_2_smelting_l",
+      "c.heading": "精准采集",
+      "c.recipe": "bloodmagic:soulforge/deforester_charge_2_silk_touch_l"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_soulforge",
+      "a.heading": "时运",
+      "a.recipe": "bloodmagic:soulforge/deforester_charge_2_fortune_1_l",
+      "b.heading": "时运 II",
+      "b.recipe": "bloodmagic:soulforge/deforester_charge_2_fortune_2_l"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "受控炸药",
+      "recipe": "bloodmagic:soulforge/vein_charge",
+      "anchor": "controlled_charge",
+      "text": "$(item)受控炸药$()只破坏$(thing)与其落点方块完全相同$()的方块。它最多会破坏3组方块，从原始点向外搜寻。与其他炸药一样，所有被挖掘的方块都会掉落。"
+    },
+    {
+      "type": "bloodmagic:3x_crafting_soulforge",
+      "a.heading": "湮灭",
+      "a.recipe": "bloodmagic:soulforge/vein_charge_voiding",
+      "b.heading": "加热工具",
+      "b.recipe": "bloodmagic:soulforge/vein_charge_smelting",
+      "c.heading": "精准采集",
+      "c.recipe": "bloodmagic:soulforge/vein_charge_silk_touch"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "时运",
+      "recipe": "bloodmagic:soulforge/vein_charge_fortune_1"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "受控炸药 II",
+      "recipe": "bloodmagic:soulforge/vein_charge_2",
+      "anchor": "controlled_charge_2",
+      "text": "$(item)受控炸药 II$()的行为与$(item)受控炸药$()相同，但它一次最多可破坏8组方块。"
+    },
+    {
+      "type": "bloodmagic:3x_crafting_soulforge",
+      "a.heading": "湮灭",
+      "a.recipe": "bloodmagic:soulforge/vein_charge_2_voiding",
+      "b.heading": "加热工具",
+      "b.recipe": "bloodmagic:soulforge/vein_charge_2_smelting_l",
+      "c.heading": "精准采集",
+      "c.recipe": "bloodmagic:soulforge/vein_charge_2_silk_touch_l"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_soulforge",
+      "a.heading": "时运",
+      "a.recipe": "bloodmagic:soulforge/vein_charge_2_fortune_1_l",
+      "b.heading": "时运 II",
+      "b.recipe": "bloodmagic:soulforge/vein_charge_2_fortune_2_l"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "真菌炸药",
+      "recipe": "bloodmagic:soulforge/fungal_charge",
+      "anchor": "fungal_charge",
+      "text": "$(item)真菌炸药$()用于砍伐巨型蘑菇，无论是在主世界还是下界。虽然怀疑你一次是否需要用这么多，但它最多可以破坏$(item)三组方块$()。"
+    },
+    {
+      "type": "bloodmagic:3x_crafting_soulforge",
+      "a.heading": "湮灭",
+      "a.recipe": "bloodmagic:soulforge/fungal_charge_voiding",
+      "b.heading": "加热工具",
+      "b.recipe": "bloodmagic:soulforge/fungal_charge_smelting",
+      "c.heading": "精准采集",
+      "c.recipe": "bloodmagic:soulforge/fungal_charge_silk_touch"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "时运",
+      "recipe": "bloodmagic:soulforge/fungal_charge_fortune_1"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "真菌炸药 II",
+      "recipe": "bloodmagic:soulforge/fungal_charge",
+      "anchor": "fungal_charge_2",
+      "text": "$(item)真菌炸药 II$()用于砍伐巨型蘑菇，无论是在主世界还是下界。它每次爆炸最多可以破坏8组蘑菇类物品。$(br2)你为什么需要这个？"
+    },
+    {
+      "type": "bloodmagic:3x_crafting_soulforge",
+      "a.heading": "湮灭",
+      "a.recipe": "bloodmagic:soulforge/fungal_charge_2_voiding",
+      "b.heading": "加热工具",
+      "b.recipe": "bloodmagic:soulforge/fungal_charge_2_smelting_l",
+      "c.heading": "精准采集",
+      "c.recipe": "bloodmagic:soulforge/fungal_charge_2_silk_touch_l"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_soulforge",
+      "a.heading": "时运",
+      "a.recipe": "bloodmagic:soulforge/fungal_charge_2_fortune_1_l",
+      "b.heading": "时运 II",
+      "b.recipe": "bloodmagic:soulforge/fungal_charge_2_fortune_2_l"
+    }
+  ]
+}

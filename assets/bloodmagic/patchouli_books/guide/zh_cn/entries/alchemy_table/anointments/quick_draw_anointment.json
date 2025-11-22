@@ -1,0 +1,37 @@
+{
+  "name": "敏捷溶剂",
+  "icon": "bloodmagic:quick_draw_anointment",
+  "category": "bloodmagic:alchemy_table/anointments",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "敏捷溶剂",
+      "recipe": "bloodmagic:alchemytable/quick_draw_anointment",
+      "text": "降低弓和弩的拉弦时间33%。$(br2)有效物品：弓、弩。$(br2)施加效果：灵巧之手 I (256 次射击)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "敏捷溶剂 L",
+      "recipe": "bloodmagic:alchemytable/quick_draw_anointment_l",
+      "text": "此注魔的升级版本持续时间延长四倍。$(br2)施加效果：灵巧之手 I (1024 次射击)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "敏捷溶剂 II",
+      "recipe": "bloodmagic:alchemytable/quick_draw_anointment_2",
+      "text": "此注魔的升级版本将弓和弩的拉弦时间降低50%。$(br2)施加效果：灵巧之手 II (256 次射击)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "敏捷溶剂 XL",
+      "recipe": "bloodmagic:alchemytable/quick_draw_anointment_xl",
+      "text": "此注魔的升级版本持续时间延长十六倍。$(br2)施加效果：灵巧之手 I (4096 次射击)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "敏捷溶剂 III",
+      "recipe": "bloodmagic:alchemytable/quick_draw_anointment_3",
+      "text": "此注魔的升级版本将弓和弩的拉弦时间降低67%。$(br2)施加效果：灵巧之手 III (256 次射击)"
+    }
+  ]
+}

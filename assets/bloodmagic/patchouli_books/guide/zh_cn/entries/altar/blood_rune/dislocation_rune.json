@@ -1,0 +1,25 @@
+{
+  "name": "转位符文",
+  "icon": "bloodmagic:dislocationrune",
+  "category": "bloodmagic:altar/blood_rune",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)转位符文$()在向外部储罐泵入或泵出时，使$(blood)生命源质$()流入和流出祭坛的流速乘算增加+20%。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_displacement"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_displacement_2",
+      "text":"使用一些$(item)下界合金碎片$()和一些从$(l:bloodmagic:dungeons/endless_realm)恶魔领域$()掠夺来的$(item)精巧地狱锻造部件$()，你可以将$(item)转位符文$()的效果翻倍，使流速每符文乘算增加+40%。"
+    },
+    {
+      "type": "bloodmagic:crafting_arc",
+      "recipe": "bloodmagic:arc/reversion/displacement",
+      "text":"如果你改变主意，可以在ARC中逆转此配方。"
+    }
+  ]
+}

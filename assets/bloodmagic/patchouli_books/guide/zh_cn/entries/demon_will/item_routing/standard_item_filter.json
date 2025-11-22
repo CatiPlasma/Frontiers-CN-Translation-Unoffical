@@ -1,0 +1,31 @@
+{
+  "name": "标准物品过滤器",
+  "icon": "bloodmagic:itemrouterfilterexact",
+  "category": "bloodmagic:demon_will/item_routing",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "标准物品过滤器让你选择最多9个物品，当插入$(l:bloodmagic:demon_will/item_routing/routing_nodes)路由节点$()时，可以从相邻物品栏中提取或插入。$(br2)每个物品都有一个数量 - 将此留空将默认为'全部'。$(br2)过滤器还具有允许和拒绝功能。在拒绝模式下，数量被忽略。"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "标准物品过滤器",
+      "recipe": "bloodmagic:alchemytable/router_filter",
+      "text": "$(br)当在$(item)输入路由节点$()中使用时，数量告诉节点在选定的物品栏中留下多少该物品。超过此数量的任何物品将被导入网络。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "当在$(item)输出路由节点$()中使用时，数量告诉节点用该物品填充选定物品栏的数量。超过此数量的任何物品将留在网络中 - 要么传递到另一个有效的物品栏，要么留在原地。"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/routing/standard_item_filter_gui.png",
+        "bloodmagic:images/entries/routing/standard_item_filter_mouseover.png"
+      ],
+      "title": "标准物品过滤器 GUI",
+      "border": true,
+      "text": "已配置过滤器的 GUI 和鼠标悬停文本。"
+    }
+  ]
+}

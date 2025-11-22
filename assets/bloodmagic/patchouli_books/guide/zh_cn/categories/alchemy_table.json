@@ -1,0 +1,6 @@
+{
+  "name": "炼金台",
+  "description": "作为一位血法师，$(l:bloodmagic:alchemy_table/alchemy_table)炼金台$()是您装备中用途极为广泛的一部分。它可以复制矿石，从其他无用物品中生产基础材料，甚至能制作$(l:bloodmagic:alchemy_table/anointments)注魔$(l)！",
+  "icon": "bloodmagic:alchemytable",
+  "sortnum": 1
+}

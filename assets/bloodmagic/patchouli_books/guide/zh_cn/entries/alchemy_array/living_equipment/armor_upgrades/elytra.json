@@ -1,0 +1,17 @@
+{
+  "name": "鞘翅",
+  "icon": "minecraft:elytra",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_upgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "为你的活体护甲添加鞘翅功能。此升级无法训练，必须通过合成$(l:bloodmagic:alchemy_array/living_equipment/living_tomes)升级典籍$()获得。$(br2)此鞘翅会消耗胸甲的耐久度，但速度仅为普通鞘翅的一半。$(br2)它看起来也相当酷。"
+    },
+    {
+      "type": "bloodmagic:crafting_upgrade_array",
+      "a.heading": "鞘翅典籍",
+      "a.recipe": "bloodmagic:array/living_elytra_upgrade",
+      "b.upgrade": "bloodmagic:elytra"
+    }
+  ]
+}

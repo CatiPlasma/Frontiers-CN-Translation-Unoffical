@@ -1,0 +1,16 @@
+{
+  "name": "活体装备升级",
+  "icon": "bloodmagic:upgradetome",
+  "priority": true,
+  "category": "bloodmagic:alchemy_array/living_equipment",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "在穿着这套新盔甲时，你感觉到它在成长，试图在你执行的各种任务中协助你。$(br2)它似乎能在多个领域发挥作用，但其成长是有限的，试图同时做所有事情是徒劳无功的。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "或许准备多套专用套装是个好主意？当然，如果你想要的不仅仅是一堆杂乱无章、效果不佳的增益，就必须小心地训练它。$(br2)幸运的是，你已设计出一个$(l:rituals/ritual_list/ritual_upgrade_remove)仪式$()来辅助训练，以及$(l:rituals/ritual_list/ritual_armour_evolve)另一个仪式$()能为你的盔甲注入更强的成长能力。"
+    }
+  ]
+}

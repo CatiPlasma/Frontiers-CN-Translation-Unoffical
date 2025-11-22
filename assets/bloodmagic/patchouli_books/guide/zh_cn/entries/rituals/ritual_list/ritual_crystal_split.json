@@ -1,0 +1,32 @@
+{
+  "name": "多面水晶的共鸣",
+  "icon": "bloodmagic:vengefulcrystal",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "多面水晶的共鸣",
+      "multiblock_id": "bloodmagic:crystal_split",
+      "text": "使用$(l:bloodmagic:rituals/ritual_diviner#dusk)仪式占卜器[薄暮]$(/l)以方便建造。"
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "crystal_split",
+      "text_overrides": [
+        ["原始水晶簇", "l:bloodmagic:demon_will/will_manipulation/crystallized_will"],
+        ["特质水晶簇", "l:bloodmagic:demon_will/will_manipulation/aspected_will"]
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "text": "此仪式会取用位于$(item)主仪式石$()上方2格处的一个生长良好（至少有5个晶柱）的$(l:bloodmagic:demon_will/will_manipulation/crystallized_will)原始水晶簇$(/l)，并将其分裂为位于四个元素仪式石正上方的、每种$(l:bloodmagic:demon_will/will_manipulation/aspected_will)特质意志$(/l)水晶簇的新的单晶柱。这个间距设计用于在$(item)主仪式石$()顶部容纳一个$(item)恶魔水晶化器$()。$(br2)关于生长恶魔意志水晶的信息，请参见$(l:bloodmagic:demon_will/will_manipulation/crystallized_will)水晶化意志$(/l)。"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "仪式设置",
+      "images": ["bloodmagic:images/entries/demon_will/will_splitting.png"],
+      "border": true,
+      "text": "多面水晶的共鸣仪式推荐设置。"
+    }
+  ]
+}

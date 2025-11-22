@@ -1,0 +1,16 @@
+{
+  "name": "嗜战饥渴",
+  "icon": "minecraft:rotten_flesh",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_downgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "如果你近期没有攻击任何目标，会使你陷入饥饿。等级越高，触发所需的无攻击间隔越短，造成的饥饿效果也越强。"
+    },
+    {
+      "type": "bloodmagic:living_armour_downgrade",
+      "a.recipe": "bloodmagic:downgrade/battle_hungry",
+      "b.upgrade": "bloodmagic:battle_hungry"
+    }
+  ]
+}

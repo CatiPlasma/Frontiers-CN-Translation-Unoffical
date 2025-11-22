@@ -1,0 +1,42 @@
+{
+  "name": "尚未实现",
+  "icon": "minecraft:barrier",
+  "category": "bloodmagic:utility",
+  "extra_recipe_mappings": {
+    "bloodmagic:lightritualstone": 0,
+    "bloodmagic:mimic": 0,
+    "bloodmagic:ethereal_mimic": 0,
+    "bloodmagic:etherealslate": 0,
+    "bloodmagic:nether_soil": 0,
+    "bloodmagic:growing_doubt": 0,
+    "bloodmagic:doubt_bucket": 0,
+    "bloodmagic:activationcrystalawakened": 0,
+    "bloodmagic:will_power_anointment": 0
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "好吧。这里要打破一下第四面墙。$(blood)血魔法$()并非功能完全，你从早期版本记得的一些东西尚未实现。其中一些可能会在未来回归，另一些则已经彻底成为历史。（说的就是你，绑定盔甲和武器……）"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)奥术灰烬仪式。其中一些很快就会回归（商标待注册），目前请静观其变。 $(li)绑定仪式。这个在1.7.10版本就移除了，别问了。 $(li)不完美仪式（青金石等）- 其中一些已作为奥术灰烬阵列实现。 $(li)冰湖印记。 $(li)弹性印记。 $(li)元素亲和印记。 $(li)利爪印记。 $(li)禁制仪式。 $(li)禁锢仪式。 $(li)冰火火山仪式。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)压制仪式。 $(li)仪式拆卸器。 $(li)仪式探知者（黎明）。 $(li)宏伟塔塔里克宝石。 $(li)幽魂武器和工具。 $(li)换位印记。 $(li)末影断绝印记。 $(li)压缩印记。 $(li)幻影桥印记。 $(li)高位祭坛组装。 $(li)永恒灵魂之泣。 $(li)汲取圣歌。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)折叠之门。 $(li)羽尘仪式。 $(li)驱逐仪式。 $(li)觉醒激活水晶。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "随着模组不断推进，其他东西可能会出现或消失。$(br2)欲了解更多信息，请查看以下内容： $(li)$(l:https://github.com/WayofTime/BloodMagic)血魔法 Github$(), $(li)$(l:https://www.curseforge.com/minecraft/mc-mods/blood-magic)血魔法 Curseforge 页面$(), $(li)以及$(l:https://discord.gg/VtNrGrs)血魔法 Discord$()。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "本手册由 Wrincewind 和 VT-14 在 Way 的原始手册基础上编写，并得到了 Patchouli 和 MinecraftGuides.net 的一些帮助。感谢您的游玩！ :)"
+    }
+  ]
+}

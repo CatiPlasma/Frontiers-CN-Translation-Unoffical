@@ -1,0 +1,23 @@
+{
+  "name": "升级典籍",
+  "icon": "bloodmagic:upgradetome",
+  "priority": true,
+  "category": "bloodmagic:alchemy_array/living_equipment",
+  "extra_recipe_mappings": {
+    "bloodmagic:upgradetome": 0
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "激活$(l:bloodmagic:rituals/ritual_list/ritual_upgrade_remove)净魂之声$()仪式后，一系列魔法$(item)典籍$()将显现在你周围。$(br2)手持其中一本时按下[$(k:use)]，你可以将此项技能的一个等级'传授'给你的胸甲（假设它有足够的剩余点数来学习）。而按住[$(k:sneak)]再按[$(k:use)]则会消耗典籍中尽可能多的经验值。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "这样做会消耗$(item)典籍$()并将其中的所有经验值应用到你的胸甲上——除非没有足够的$(thing)升级点数$()可用。$(br2)在这种情况下，典籍会应用尽可能多的经验，并储存剩余部分——除非剩余经验不足1级，此时典籍将被销毁。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "这是一个绝佳的方法，可以将训练重点集中在你希望提升的能力上，同时 conveniently 忽略那些你觉得用处不大的能力。$(br2)或者，你可以给不同的胸甲传授不同的技能，这样你就可以有一套用于采矿，一套用于战斗，另一套用于探索。"
+    }
+  ]
+}

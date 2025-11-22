@@ -1,0 +1,19 @@
+{
+  "name": "压制印记",
+  "icon": "bloodmagic:sigilofsuppression",
+  "category": "bloodmagic:alchemy_array/sigil",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)压制印记$()在通过按下[$(k:use)]激活时，会暂时消除其持有者大约6格半径内的所有流体。当离开相关液体后不久，流体会恢复原状，就像从未消失过一样。虽然这会使探索下界的熔岩海洋变得容易得多，但要注意在激活时跳入任何深水区！"
+    },
+    {
+      "type": "bloodmagic:crafting_2-step_sigil",
+      "alchemy_table.heading": "压制试剂",
+      "alchemy_table.recipe": "bloodmagic:alchemytable/reagent_suppression",
+      "array.heading": "压制印记",
+      "array.recipe": "bloodmagic:array/suppressionsigil",
+      "array.text": "$(italic)比虚空印记\u00AE更好！"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "璀璨光华",
+  "icon": "minecraft:diamond",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_upgrades",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "璀璨光华",
+      "recipe": "bloodmagic:alchemytable/upgrade_brilliance",
+      "text": "效果：提升护甲防御力。上限为+5护甲值和+8韧性。$(br2)训练方式：在炼金台中制作活体典籍。每本典籍增加1级璀璨光华。$(br2)最高等级：5"
+    },
+    {
+      "type": "bloodmagic:living_armour_upgrade_table",
+      "upgrade": "bloodmagic:diamond_protect"
+    }
+  ]
+}

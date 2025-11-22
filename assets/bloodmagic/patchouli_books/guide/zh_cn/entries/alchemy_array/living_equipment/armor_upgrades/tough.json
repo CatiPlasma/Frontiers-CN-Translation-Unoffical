@@ -1,0 +1,15 @@
+{
+  "name": "坚韧掌肤",
+  "icon": "bloodmagic:sacrificialdagger",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_upgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "效果：提升自我献祭的效率，最高可额外获得150%。$(br2)训练方式：使用献祭之刃进行血之献祭。$(br2)最高等级：10"
+    },
+    {
+      "type": "bloodmagic:living_armour_upgrade_table",
+      "upgrade": "bloodmagic:self_sacrifice"
+    }
+  ]
+}

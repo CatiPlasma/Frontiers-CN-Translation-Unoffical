@@ -1,0 +1,27 @@
+{
+  "name": "结晶意志",
+  "icon": "bloodmagic:defaultcrystal",
+  "category": "bloodmagic:demon_will/will_manipulation",
+  "extra_recipe_mappings": {
+    "bloodmagic:demoncrucible": 1,
+    "bloodmagic:demoncrystallizer": 1,
+    "bloodmagic:rawdemoncrystal": 1,
+    "bloodmagic:defaultcrystal": 1
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "既然你的$(l:bloodmagic:demon_will/will_manipulation/soul_gem)地狱灵魂宝石$()中已经有了大量的$(l:bloodmagic:demon_will/will_manipulation/demon_will)恶魔意志$()，是时候探索当你将其释放到世界上时会发生什么了。$(br2)首先，你需要将$(raw)意志$()注入$(l:bloodmagic:demon_will/will_manipulation/aura)灵气$()中。接下来，你需要制作一个$(thing)恶魔结晶器$()。"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "恶魔结晶器",
+      "recipe": "bloodmagic:soulforge/demon_crystallizer",
+      "text": "这会缓慢消耗$(l:bloodmagic:demon_will/will_manipulation/aura)灵气$()中的$(l:bloodmagic:demon_will/will_manipulation/demon_will)恶魔意志$()来产生$(item)意志晶体$()。第一个晶柱形成需要消耗100点$(raw)意志$()，所有后续的晶柱每个消耗40点，但可以在$(item)恶魔熔炉$()中燃烧获得50点，净收益为10点。最大的$(item)结晶簇$()最多可以有7个晶柱。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "如果你的物品栏中总共有超过512点$(raw)意志$()（跨越任意数量的$(l:bloodmagic:demon_will/will_manipulation/soul_gem)地狱灵魂宝石$()且为同一种类型），你可以通过空手右键点击晶柱来收获这些晶体。这将移除除中心晶柱之外的所有晶柱。$(br2)然而，如果你没有足够的$(raw)意志$()，$(italic)真的$()需要中心晶柱的晶体，或者只是赶时间，你可以用镐收获全部晶体。"
+    }
+  ]
+}

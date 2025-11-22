@@ -1,0 +1,16 @@
+{
+  "name": "风暴兵准头",
+  "icon": "minecraft:arrow",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_downgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "在使用弓或弩射击时，使你变得极其不准。"
+    },
+    {
+      "type": "bloodmagic:living_armour_downgrade",
+      "a.recipe": "bloodmagic:downgrade/storm_trooper",
+      "b.upgrade": "bloodmagic:storm_trooper"
+    }
+  ]
+}

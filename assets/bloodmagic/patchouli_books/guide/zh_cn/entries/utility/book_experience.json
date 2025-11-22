@@ -1,0 +1,20 @@
+{
+  "name": "经验典籍",
+  "icon": "bloodmagic:experiencebook",
+  "category": "bloodmagic:utility",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)经验典籍$()允许你安全地存储你的$(thing)经验值$()。$(br2)手持典籍按下[$(k:sneak)]和[$(k:use)]键可以存储$(thing)一级经验$()。按下[$(k:use)]键可以$(thing)取出一级$()。按住[$(k:use)]键可以$(thing)存储/取出多级$()。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:experience_tome"
+    },
+    {
+      "type": "patchouli:text",
+      "flag": "mod:curios",
+      "text": "由于你安装了$(thing)Curios API$()，你可以将$(item)经验典籍$()作为饰品装备。如果你想同时佩戴更多饰品，可以考虑使用$(l:bloodmagic:alchemy_array/sigil/holding)容纳印记$()，或者为你的$(l:bloodmagic:alchemy_array/living_equipment/living_basics)活体盔甲$()使用$(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/curios_sockets)插槽升级$()。"
+    }
+  ]
+}

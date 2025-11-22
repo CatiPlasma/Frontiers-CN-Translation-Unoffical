@@ -1,0 +1,56 @@
+{
+  "name": "恶魔意志灵气",
+  "icon": "bloodmagic:demoncrucible",
+  "category": "bloodmagic:demon_will/will_manipulation",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "正如我们$(l:bloodmagic:demon_will/will_manipulation/demon_will)已确立的$()，$(raw)恶魔意志$()会凝聚在某些生物周围，并以恶意驱动它们。然而，这并不是$(raw)意志$()可以存在的唯一地方。通过在$(item)恶魔熔炉$()中燃烧$(raw)意志$()，可以将其释放到$(thing)灵气$()中，产生巨大而迷人的效果。"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "恶魔熔炉",
+      "recipe": "bloodmagic:soulforge/demon_crucible",
+      "text": "将一个充能过的$(l:bloodmagic:demon_will/will_manipulation/soul_gem)地狱灵魂宝石$()或任何属性的$(item)恶魔意志$()或$(item)恶魔晶体$()放入其中并让它运行。当区块的$(raw)意志$()低于50时，$(item)晶体$()将被消耗，而$(raw)恶魔意志$()（物品形式或来自$(item)地狱灵魂宝石$()的）将根据需要一点一点地被消耗。"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/demon_will/demon_crucible.png"
+      ],
+      "title": "恶魔熔炉",
+      "border": true,
+      "text": "$(item)恶魔熔炉$()，内部有一个$(l:bloodmagic:demon_will/will_manipulation/soul_gem)地狱灵魂宝石$()。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "现在大气中有了$(raw)原始意志$()。太好了，然后呢？$(br2)一些$(thing)仪式$()可以$(l:bloodmagic:rituals/ritual_tinkerer)受益$()于$(raw)原始意志$()，但这样做的主要好处是能够制造精炼的$(item)恶魔意志晶体$()，并由此$(l:bloodmagic:rituals/ritual_list/ritual_crystal_split)将其分裂$()成它们的$(l:bloodmagic:demon_will/will_manipulation/aspected_will)属性$()。$(br2)一旦你拥有了一些这些$(item)属性意志晶体$()，你可以再次在$(item)熔炉$()中燃烧它们，将其释放到$(thing)灵气$()中，供你的仪式受益。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "必须提及的是，$(thing)灵气$()是基于区块的。也就是说，你燃烧的任何$(raw)意志$()都会填充你燃烧它所在的区块，每个类型的总上限为100。你可以使用$(l:bloodmagic:demon_will/will_manipulation/aura_gauge)恶魔意志灵气量表$()来测量这个值。$(br2)要移动恶魔意志，只需在任何相邻区块放置一个$(item)恶魔尖塔$()，$(raw)意志$()就会被吸引过去。"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "恶魔尖塔",
+      "recipe": "bloodmagic:soulforge/demon_pylon",
+      "text": "尖塔将从所有相邻区块（不包括对角线）吸收所有种类的意志。可以链接多个尖塔以便在更远的距离上传输意志。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "如果你将一个$(l:bloodmagic:demon_will/will_manipulation/soul_gem)地狱灵魂宝石$()放入$(l:bloodmagic:demon_will/will_manipulation/soul_forge)地狱火锻炉$()中，会导致它快速吸收其所在区块的$(raw)意志$()。$(br2)如果区块中有一种$(raw)意志$()属性，例如$(raw)原始$()或$(corrosive)腐蚀$()，并且有一个空的$(item)地狱灵魂宝石$()，就有可能用该属性填充宝石。$(br2)这让你可以相应地调整你的$(l:bloodmagic:demon_will/demonic_items/sentient_tools)感知工具$()和$(l:bloodmagic:demon_will/demonic_items/sentient_sword)巨剑$()。效果定义$(l:bloodmagic:demon_will/will_manipulation/aspected_will#sentient_aspects)在此$()。"
+    },
+    {
+      "type": "patchouli:relations",
+      "title": "相关链接",
+      "entries": [
+        "bloodmagic:rituals/ritual_tinkerer",
+        "bloodmagic:demon_will/will_manipulation/crystallized_will",
+        "bloodmagic:demon_will/will_manipulation/aspected_will",
+        "bloodmagic:rituals/ritual_list/ritual_crystal_split",
+        "bloodmagic:rituals/ritual_list/ritual_crystal_harvest"
+      ],
+      "text": "我还能做更多，我能感觉到..."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "破碎水晶的裂响",
+  "icon": "bloodmagic:defaultcrystal",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "破碎水晶的裂响",
+      "multiblock_id": "bloodmagic:crystal_harvest",
+      "text": "使用$(l:bloodmagic:rituals/ritual_diviner#dusk)仪式占卜器[薄暮]$(/l)以方便建造。"
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "crystal_harvest",
+      "text_overrides": [
+        ["恶魔意志水晶簇", "l:bloodmagic:demon_will/will_manipulation/crystallized_will"],
+        ["特质意志", "l:bloodmagic:demon_will/will_manipulation/aspected_will"]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "crystal_harvest",
+      "page_type": "crystal",
+      "text_overrides": [
+        ["恶魔意志", "raw"]
+      ]
+    }
+  ]
+}

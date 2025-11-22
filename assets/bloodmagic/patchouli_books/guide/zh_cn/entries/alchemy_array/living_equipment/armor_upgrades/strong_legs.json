@@ -1,0 +1,15 @@
+{
+  "name": "强健腿力",
+  "icon": "minecraft:diamond_leggings",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_upgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "效果：增加跳跃高度并减少坠落伤害，最高可额外跳跃7.5格高度并提供83%跌落抗性。跳跃时按住[$(k:sneak)]可取消此效果。$(br2)训练方式：四处跳跃。$(br2)最高等级：10"
+    },
+    {
+      "type": "bloodmagic:living_armour_upgrade_table",
+      "upgrade": "bloodmagic:jump"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "name": "等级与入门指南",
+  "icon": "bloodmagic:sacrificialdagger",
+  "category": "bloodmagic:utility",
+  "priority": "true",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(blood)血魔法 3$()的进程仍在重新设计中，最初的几个步骤与$(blood)血魔法 2$()的有显著不同。$(br2)我们仍在调整我们的指导，但要等到进程锁定之后。在此期间，这里快速概述一下如何在$(blood)血魔法 3$()中进展。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:altar",
+      "title": "血之祭坛 (等级1)",
+      "text": "$(blood)血魔法$()的第一步是建造一个$(l:bloodmagic:altar/blood_altar)血之祭坛$()和一把$(l:bloodmagic:altar/blood_altar#knife)献祭之刃$()。用这些来通过自我献祭产生$(blood)生命能量$()。$(br2)使用这些$(blood)生命能量$()来合成一个$(l:bloodmagic:altar/soul_network)虚弱血宝珠$()、几个$(l:bloodmagic:altar/slates)空白石板$()和一些$(l:bloodmagic:demon_will/will_manipulation/soul_snare)灵魂陷阱$()。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:alchemytable",
+      "title": "炼金台 (等级1)",
+      "text": "$(l:bloodmagic:alchemy_table/alchemy_table)炼金台$()使用玩家$(thing)灵魂网络$()中的$(blood)生命能量$()（从其内部绑定的$(l:bloodmagic:altar/soul_network)血宝珠$()中抽取）来合成各种不同的物品，例如：$(li)$(l:bloodmagic:alchemy_array/functional_arrays/arcane_ash)奥术灰烬$()$(li)$(item)印记试剂$()$(li)$(l:bloodmagic:alchemy_table/anointments)注剂$()$(li)$(thing)2倍矿石处理$()$(li)以及其他各种零碎物品。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:arcaneashes",
+      "title": "炼金阵 (等级1)",
+      "text": "$(thing)炼金阵$()是通过在地上放置一些$(l:bloodmagic:alchemy_array/functional_arrays/arcane_ash)奥术灰烬$()制成的。可以通过[$(k:use)]将2个$(item)物品$()放入炼金阵，它要么会合成一个$(item)物品$()（例如$(l:bloodmagic:alchemy_array/sigil/divination)占卜印记$()），要么执行$(thing)某种功能$()（例如$(l:bloodmagic:alchemy_array/functional_arrays/time_arrays)将白天变为黑夜$()）。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:soulforge",
+      "title": "狱火锻炉 (等级1)",
+      "text": "$(l:bloodmagic:demon_will/will_manipulation/soul_forge)狱火锻炉$()使用$(l:bloodmagic:demon_will/will_manipulation/demon_will)恶魔意志$()进行合成。你通过使用$(l:bloodmagic:demon_will/will_manipulation/soul_snare)灵魂陷阱$()获得你的第一份$(raw)意志$()，不过建议升级到$(l:bloodmagic:demon_will/demonic_items/sentient_sword)感知剑$()。$(item)狱火锻炉$()用于直接与$(raw)恶魔意志$()相关的物品（如$(l:bloodmagic:demon_will/will_manipulation/soul_gem)塔塔里克宝石$()和$(l:bloodmagic:demon_will/demonic_items/sentient_tools)感知工具$())以及消耗品（如$(l:bloodmagic:demon_will/demonic_items/explosive_charges)爆破电荷$()和$(l:bloodmagic:demon_will/demonic_items/throwing_daggers)飞刀$()）。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:daggerofsacrifice",
+      "title": "等级二",
+      "text": "此时，你将能够合成一把$(l:bloodmagic:altar/blood_altar#dagger_of_sacrifice)牺牲匕首$()来屠杀生物以获取更多$(blood)生命能量$()。各种$(item)升级符文$()应该可以为你的$(item)血之祭坛$()所用，并且还会出现一些更多的$(item)印记$()。和之前一样，你应该专注于进一步升级你的$(l:bloodmagic:altar/blood_altar)祭坛$()。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:alchemy_flask",
+      "title": "药水酿造 (等级2)",
+      "text": "如果建造你的$(l:bloodmagic:altar/blood_altar)祭坛$()变得乏味，并且你觉得需要分散一下注意力，为什么不试试新开放的$(l:bloodmagic:alchemy_table/potions)药水酿造$()系统呢？你将能够合成$(thing)炼金瓶$()或$(l:bloodmagic:demon_will/demonic_items/throwing_daggers#amethyst_throwing_dagger)药箭紫水晶飞刀$()，并为它们注入数十种效果。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:ritualdiviner",
+      "title": "等级三",
+      "text": "到这个时候，你将有能力创建一些基础的$(l:bloodmagic:rituals/ritual_basics)仪式$()和$(l:bloodmagic:alchemy_array/living_equipment/living_basics)活体盔甲$()。这套盔甲非常多功能，但你需要努力才能解锁其全部潜力。此时，你应该研究升级你的$(l:bloodmagic:altar/blood_altar)祭坛$()和你的$(l:bloodmagic:rituals/ritual_diviner)仪式占卜器$()以解锁更强大的$(thing)仪式$()。怎么做呢？"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:simplekey",
+      "title": "地下城探险 (等级3)",
+      "text": "通过执行$(l:bloodmagic:rituals/ritual_list/ritual_simple_dungeon)隐秘之境边缘$()仪式！这将允许你有限地进入$(thing)恶魔领域$()，并有望找到$(l:bloodmagic:dungeons/tau_fruit)Tau果实$()，它可以培育成$(thing)饱和Tau$()，然后在$(l:bloodmagic:utility/alchemical_reaction_chamber)炼金反应室$()中转化为$(item)虚弱血碎片$()。这些可用于制造四级祭坛、更强大的$(l:bloodmagic:alchemy_table/anointments)注剂$()和$(l:bloodmagic:alchemy_table/potions#average_potions)药水催化剂$()。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:duskscribetool",
+      "title": "等级四",
+      "text": "在4级，你将获得$(l:bloodmagic:rituals/ritual_diviner#dusk)仪式占卜器[薄暮]$(/l)的使用权，以及随之而来的一大堆更高级的$(thing)仪式$()，允许实现诸如$(l:bloodmagic:rituals/ritual_list/ritual_well_of_suffering)自动化你的生命能量供应$()、在你的基地内$(l:bloodmagic:rituals/ritual_list/ritual_condor)无限创造飞行$()，甚至$(l:bloodmagic:rituals/ritual_list/ritual_meteor)从天堂召唤一颗毁灭性的陨石$()，里面装满了好东西！"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:upgradetome",
+      "title": "更好的盔甲 (等级4)",
+      "text": "到这个时候你可能已经摆弄过$(l:bloodmagic:alchemy_array/living_equipment/living_basics)活体盔甲$()了，但相对较低的点数上限可能开始让你感到束缚。有了$(l:bloodmagic:rituals/ritual_diviner#dusk)仪式占卜器[薄暮]$(/l)，你现在可以前所未有地增强你的盔甲。首先，$(l:bloodmagic:rituals/ritual_list/ritual_armour_evolve)活体进化仪式$()将允许你将点数上限从100点提高到300点。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "如果这还不够，你可以使用$(l:bloodmagic:rituals/ritual_list/ritual_upgrade_remove)净化灵魂之音$()来剥离你盔甲的升级。这些典籍可以复制到$(l:bloodmagic:alchemy_array/living_equipment/training_bracelet)训练手镯$()中，或者重新应用到你的盔甲上，以确保你只训练你真正想要的升级。$(br2)任何剩余的$(thing)升级典籍$()可以保留作为$(l:bloodmagic:rituals/ritual_list/ritual_living_downgrade)沉重灵魂的赎罪$()仪式的燃料。这个仪式允许你为你的盔甲施加$(thing)降级$()。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "虽然这些降级代价高昂（并且每个都带有沉重的惩罚），但它们负的点数消耗将给你更多空间来进一步改进你的升级。$(br2)想变得无比坚韧和健康，并且不介意速度慢？试试结合$(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/body_builder)健美身躯$() V、$(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/brilliance)光辉$() V、$(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/healthy)健康$() X和$(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/tough)坚韧$() X，以及$(l:bloodmagic:alchemy_array/living_equipment/armour_downgrades/dig_slowdown)沉重镐$() X和$(l:bloodmagic:alchemy_array/living_equipment/armour_downgrades/speed_decreas e)跛足$() X。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "更倾向于探索和快速移动？也许你不在乎你的副手？也许$(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/strong_legs)强健双腿$() X、$(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/quick_feet)迅捷脚步$() X和$(l:bloodmagic:alchemy_array/living_equipment/armour_downgrades/crippled_arm)残废手臂$()更适合你的风格。$(br2)想在不同时间拥有两种配置？制作多个胸甲并在它们之间切换！有数十种升级和降级，所以混合搭配以找到你最喜欢的组合。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:vengefulcrystal",
+      "title": "特质意志 (等级4)",
+      "text": "你可能想研究一下$(l:bloodmagic:rituals/ritual_tinkerer)仪式调试器$()和可供你使用的各种$(l:bloodmagic:demon_will/will_manipulation/aspected_will)意志特质$()，并考虑如何利用它们来改进你现有的仪式，以及改变你的$(l:bloodmagic:demon_will/demonic_items/sentient_tools)感知工具$()和$(l:bloodmagic:demon_will/demonic_items/sentient_sword)武器$()的工作方式。然而，要超越这个阶段，需要深入$(thing)恶魔领域$()……"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:mineentrancekey",
+      "title": "恶魔领域 (等级4)",
+      "text": "通过执行$(l:bloodmagic:rituals/ritual_list/ritual_standard_dungeon)通往无尽之境之路$()，你可以进入$(thing)恶魔领域$()本身，以及它所有的宝藏和恐怖。准备好战斗装备再来！深入探索，你可能会找到丰富的$(l:bloodmagic:dungeons/demonite)恶魔岩矿石$()资源，它可以合成为方块形式，用于你祭坛的顶石，以及$(item)大法师血宝珠$()。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:ingot_hellforged",
+      "title": "等级五",
+      "text": "这是顶级阶段。此时你已经可以使用$(blood)血魔法$()提供的一切。继续深入恶魔领域寻找稀有宝藏，你可能会幸运地找到$(item)精密地狱锻铸部件$()，它可以与一些$(item)下界合金碎片$()一起使用，使你祭坛的每个符文的效果翻倍！"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:barrier",
+      "title": "等级六？",
+      "text": "什么？不。听着，即使在1.12版本中，这也只是作为对整合包制作者的优待而存在，否则并未实装。你想得太远了。快翻回去一页。"
+    }
+  ]
+}

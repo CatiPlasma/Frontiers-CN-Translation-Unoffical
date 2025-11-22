@@ -1,0 +1,31 @@
+{
+  "name": "黑曜石护甲",
+  "icon": "minecraft:diamond",
+  "category": "bloodmagic:alchemy_table/potion_flasks/blood_magic",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)黑曜石护甲$()效果使目标受到的所有非魔法来源伤害每级减少20%。$(br2)它由一瓶$(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/hard_cloak)坚韧护甲$()药瓶制成，而非像大多数其他$(thing)药水$()那样使用$(item)空药瓶$()。"
+    },
+    {
+      "type": "bloodmagic:3x_crafting_flask",
+      "a.heading": "黑曜石护甲 (3:00)",
+      "a.recipe": "bloodmagic:flask/hard_to_obsidian",
+      "b.heading": "黑曜石护甲 (8:00)",
+      "b.recipe": "bloodmagic:flask/length_obsidian_cloak",
+      "c.heading": "黑曜石护甲 II (1:30)",
+      "c.recipe": "bloodmagic:flask/potency_obsidian_cloak"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "添加$(l:bloodmagic:alchemy_table/potions#average_potions)标准催化剂$()可以进一步增强你的药水。"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_flask",
+      "a.heading": "黑曜石护甲 III (0:45)",
+      "a.recipe": "bloodmagic:flask/potency_average_obsidian_cloak",
+      "b.heading": "黑曜石护甲 (21:20)",
+      "b.recipe": "bloodmagic:flask/length_average_obsidian_cloak"
+    }
+  ]
+}

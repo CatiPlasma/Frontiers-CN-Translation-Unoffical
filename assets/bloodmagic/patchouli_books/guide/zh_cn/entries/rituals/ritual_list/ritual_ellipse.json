@@ -1,0 +1,31 @@
+{
+  "name": "椭球聚焦",
+  "icon": "minecraft:bucket",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "椭球聚焦",
+      "multiblock_id": "bloodmagic:ellipsoid",
+      "text": "使用$(l:bloodmagic:rituals/ritual_diviner#dusk)仪式占卜器[薄暮]$(/l)以方便建造。"
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "ellipsoid"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "这个仪式本质上是纯装饰性的，为我们每个人心中那个崭露头角却又懒惰的建筑师而设计。它特别适合建造复杂的形状，比如你邪恶巢穴上方的宏伟黄金穹顶。……你应该有一个吧？"
+    },
+	{
+	  "type": "bloodmagic:ritual_data",
+	  "ritual": "ellipsoid",
+	  "page_type": "chest"
+	},
+	{
+	  "type": "bloodmagic:ritual_data",
+	  "ritual": "ellipsoid",
+	  "page_type": "spheroidRange"
+	}
+  ]
+}

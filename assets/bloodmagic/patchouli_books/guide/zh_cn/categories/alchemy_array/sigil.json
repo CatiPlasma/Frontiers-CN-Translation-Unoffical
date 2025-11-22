@@ -1,0 +1,7 @@
+{
+  "name": "印记",
+  "description": "$(item)印记$()需要通过$(l:bloodmagic:alchemy_array/functional_arrays/crafting_array)炼金阵列$()、某种形态的$(item)试剂$()和一块$(l:bloodmagic:altar/slates)石板$()来合成。它们会从你的$(l:bloodmagic:altar/soul_network)灵魂网络$(/l)中汲取$(blood)LP$()，以执行各种有用的任务。",
+  "icon": "bloodmagic:divinationsigil",
+  "parent": "bloodmagic:alchemy_array",
+  "sortnum": 1
+}

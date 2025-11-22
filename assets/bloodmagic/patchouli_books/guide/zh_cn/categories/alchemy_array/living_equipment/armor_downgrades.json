@@ -1,0 +1,6 @@
+{
+  "name": "活体护甲降级效果",
+  "description": "可用活体护甲降级效果列表。$(br2) 点击$(l:bloodmagic:rituals/ritual_list/ritual_living_downgrade#downgrades)此处$()查看其运作原理的说明。",
+  "icon": "bloodmagic:upgradescraps",
+  "parent": "bloodmagic:alchemy_array/living_equipment"
+}

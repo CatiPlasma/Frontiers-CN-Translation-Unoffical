@@ -1,0 +1,17 @@
+{
+  "name": "生命源质桶",
+  "icon": "bloodmagic:life_essence_bucket",
+  "category": "bloodmagic:utility",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(blood)生命源质$()在$(l:bloodmagic:altar/blood_altar)血之祭坛$()中一切都好，可以用于合成或导入$(l:bloodmagic:altar/soul_network)宝珠$()来为$(thing)仪式$()供能，但如果你想在你的$(l:bloodmagic:utility/incense_altar)熏香祭坛$()周围挖一条护城河呢？幸运的是，提取$(blood)生命源质$()相对简单。只需在$(l:bloodmagic:altar/blood_altar)血之祭坛$()中放置一个$(item)桶$()，等待几秒钟让它装满。$(blood)1 LP$()=1mb，所以$(blood)1,000 LP$()应该足够装满你的$(item)桶$()了。"
+    },
+    {
+      "type": "bloodmagic:crafting_altar",
+      "heading": "生命之桶",
+      "recipe": "bloodmagic:altar/bucket_life",
+      "text": "$(italic)这绝对不是血。是血的话现在早就凝固了。$(br2)...你为什么那样看着我？$()"
+    }
+  ]
+}

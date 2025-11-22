@@ -1,0 +1,57 @@
+{
+  "name": "仪式占卜器",
+  "icon": "bloodmagic:ritualdiviner",
+  "category": "bloodmagic:rituals",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "合成仪式是一项精细的工作；即使你有正确的$(item)元素铭刻工具$()，你也不能随便乱放符文印记就指望事情能成。幸运的是，$(item)仪式占卜器$()可以帮你。$(br2)按住[$(k:sneak)]并看着空气按下[$(k:use)]或[$(k:attack)]键，可以沿不同方向循环浏览可用的仪式。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "你还可以通过按下[$(k:use)]键来改变已完成仪式的朝向。这只影响少数仪式，例如$(l:bloodmagic:rituals/ritual_list/ritual_speed)速度仪式$()，因为大多数仪式是对称的。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:ritual_diviner_0",
+      "text": "只需看着一个$(item)主仪式石$()并点击[$(k:use)]键，就能让占卜器用你携带的任何$(item)仪式石$()建造当前选定的仪式。这简直像魔法一样！"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "仪式占卜器可以破坏可替换的方块（如高草、雪等），但不能破坏坚固的方块如石头或泥土，因此在开始建造前请确保区域畅通，否则$(l:bloodmagic:rituals/activation_crystals)激活水晶$()将无法工作。$(br2)同样值得注意的是，基础仪式占卜器只能创建一些更基础的仪式。如果你想充分利用你的占卜器，你必须用$(dusk)薄暮元素铭刻工具$()来升级它。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:ritual_diviner_1",
+      "anchor": "dusk",
+      "text": "与元素铭刻工具不同，仪式占卜器和仪式占卜器[薄暮]永远不会耗尽耐久。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "基础仪式占卜器的制作需要每种$(item)元素铭刻工具$()各一个，因此需要一个3级$(l:bloodmagic:altar/blood_altar)血之祭坛$(/l)。$(br2)四种基础元素铭刻工具可以在你的祭坛中合成，每种消耗$(blood)1,000 LP$()，如下列页面所述。仪式占卜器[薄暮]同样需要4级祭坛来制作两个薄暮元素铭刻工具，每个成本为$(blood)2,000 LP$()。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "你也可以手动使用这些工具来铭刻符文，但这通常只应用于装饰目的，因为这种方式既慢又不精确。"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_altar",
+      "a.heading": "铭刻工具：空气",
+      "a.recipe": "bloodmagic:altar/air_tool",
+      "b.heading": "铭刻工具：火焰",
+      "b.recipe": "bloodmagic:altar/fire_tool"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_altar",
+      "a.heading": "铭刻工具：水",
+      "a.recipe": "bloodmagic:altar/water_tool",
+      "b.heading": "铭刻工具：大地",
+      "b.recipe": "bloodmagic:altar/earth_tool"
+    },
+    {
+      "type": "bloodmagic:crafting_altar",
+      "heading": "铭刻工具：薄暮",
+      "recipe": "bloodmagic:altar/dusk_tool"
+    }
+  ]
+}

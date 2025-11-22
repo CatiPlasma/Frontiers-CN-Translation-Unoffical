@@ -1,0 +1,48 @@
+{
+  "name": "沉重灵魂的赎罪",
+  "icon": "bloodmagic:upgradescraps",
+  "category": "bloodmagic:rituals/ritual_list",
+  "extra_recipe_mappings": {
+    "bloodmagic:upgradescraps": 7
+  },
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "沉重灵魂的赎罪",
+      "multiblock_id": "bloodmagic:downgrade",
+      "text": "使用$(l:bloodmagic:rituals/ritual_diviner#dusk)仪式占卜器[薄暮]$(/l)以方便建造。"
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "downgrade"
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "downgrades",
+      "text": "此仪式消耗多余的$(thing)升级点$()（以$(item)典籍$()、$(item)碎片$()和$(item)合成升级点$()的形式）以及每个等级一个$(item)关键物品$()，以便对你穿戴的$(l:bloodmagic:alchemy_array/living_equipment/living_basics)活体盔甲$()施加降级。每个降级的关键物品都不同，并在每个降级条目中配有图片。这些降级会严重限制你的能力，但会为你提供大量额外的$(thing)升级点$()供你使用，允许你进行比以往更专门化的定制。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:synthetic_point",
+      "text": "如果你没有足够的点数，你可以合成合成升级点。每一个价值1个升级点。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "要使用此仪式，只需将你的典籍（或其他升级点来源）以及你心目中特定降级所需的物品放入连接的箱子中（参见前一页），同时穿着你的活体盔甲。仪式将消耗点数并对你的盔甲施加降级。消耗顺序是$(item)活体盔甲升级碎片$()，然后是$(item)活体盔甲升级典籍$()，最后是$(item)合成升级点$()。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "施加到你盔甲上的降级取决于你放入箱子的物品。每个匹配特定降级的物品都会将所需降级的等级提高一级。通过这种方式，可以在一次仪式激活中同时施加多个降级。所以，如果你想要，比如说，3级的‘战斗饥渴’，你需要将3个$(item)腐肉$()和价值35$(thing)升级点$()的物品放入箱子，并在穿着全套$(thing)活体盔甲$()的情况下激活仪式。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "仪式会遵循你在$(l:bloodmagic:alchemy_array/living_equipment/training_bracelet)活体盔甲训练手镯$()上配置的任何设置，因此如果你将其设置为‘不允许其他升级’，那么仪式将无法对你施加降级。如有疑问，请收好你的训练手镯！"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:upgradescraps",
+      "title": "活体盔甲升级碎片",
+      "text": "多余的点数将以$(item)活体盔甲升级碎片$()的形式返还，可用于后续的仪式。"
+    }
+  ]
+}

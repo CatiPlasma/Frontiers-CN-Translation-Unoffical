@@ -1,0 +1,27 @@
+{
+  "name": "你的第一份意志",
+  "icon": "bloodmagic:soulsnare",
+  "category": "bloodmagic:demon_will/will_manipulation",
+  "priority": "true",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_altar",
+      "heading": "灵魂陷阱",
+      "recipe": "bloodmagic:altar/soul_snare",
+      "text": "$(item)灵魂陷阱$()是你进入$(blood)血魔法$()的$(l:bloodmagic:demon_will/will_manipulation/demon_will)恶魔意志$()部分的大门。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "使用$(item)陷阱$()非常简单 - 制作足够数量的它们，然后扔向$(thing)敌对生物$()。白色粒子效果将围绕它们出现；那时就是进行击杀的时候。死亡时，它们会掉落一个$(l:bloodmagic:demon_will/will_manipulation/demon_will)恶魔意志$()。在你问之前，是的，抢夺附魔会增加掉落的$(raw)意志$()数量。一旦你收集了几个，你就可以开始为自己制作一把$(l:bloodmagic:demon_will/demonic_items/sentient_sword)感知巨剑$()和一个$(l:bloodmagic:demon_will/will_manipulation/soul_gem)地狱灵魂宝石$() - 这些将使收集$(l:bloodmagic:demon_will/will_manipulation/demon_will)恶魔意志$()变得容易得多。"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/demon_will/snare_particles.png"
+      ],
+      "title": "骷髅上的陷阱",
+      "border": true,
+      "text": "一个被陷阱击中后带有白色粒子的骷髅。"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "地下城钥匙",
+  "icon": "bloodmagic:simplekey",
+  "category": "bloodmagic:dungeons",
+  "extra_recipe_mappings": {
+    "bloodmagic:mineentrancekey": 2
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)钥匙$()是在$(thing)地下城$()中初步导航的方式。它们可以在$(thing)恶魔领域$()内的地下城箱子中找到，也可以被合成。最基本的种类是$(item)铁钥匙$()，它们生成于$(thing)前厅$()以及$(thing)恶魔领域$()本身最浅层的区域。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "最终，在搜索地下城时，你可能会遇到$(thing)空间扭曲$()。这些扭曲要么会引导你找到一把独特的、无法合成的钥匙，要么会通向一扇只有该钥匙才能打开的门。空间扭曲只会在恶魔领域本身形成，你永远不会在前厅中找到它们。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:mineentrancekey",
+      "title": "矿坑",
+      "text": "$(thing)矿坑$()的入口只能用无法合成的$(thing)工头钥匙$()打开，而矿坑内所有其他的门都可以用$(thing)矿工钥匙$()打开。矿坑将让你获得$(l:bloodmagic:dungeons/demonite)恶魔岩矿石$()以及一些更稀有的战利品，但也伴随着相应的挑战。"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "铁钥匙",
+      "recipe": "bloodmagic:soulforge/simple_key",
+      "text": "$(italic)既然这么简单，为什么我们不能直接撬锁呢？$()"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "矿工钥匙",
+      "recipe": "bloodmagic:soulforge/mine_key",
+      "text": "$(italic)我们这就干活去..!$()"
+    }
+  ]
+}

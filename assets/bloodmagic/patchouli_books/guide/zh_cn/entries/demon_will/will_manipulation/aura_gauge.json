@@ -1,0 +1,29 @@
+{
+  "name": "恶魔意志灵气量表",
+  "icon": "bloodmagic:demonwillgauge",
+  "category": "bloodmagic:demon_will/will_manipulation",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "当在玩家的物品栏中时，$(item)恶魔意志灵气量表$()将显示一个HUD元素来显示本地$(l:bloodmagic:demon_will/will_manipulation/aura)灵气$()中有多少$(raw)恶魔意志$()。$(br2)从上到下，测量的意志属性是：$(li)$(raw)原始$() $(li)$(corrosive)腐蚀$() $(li)$(steadfast)坚韧$() $(li)$(destructive)毁灭$() $(li)$(vengeful)复仇$()"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "recipe": "bloodmagic:soulforge/demon_will_gauge",
+      "heading": "恶魔意志灵气量表",
+      "text": "量表的HUD元素图像见背面。"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/demon_will/demon_will_aura_gauge.png"
+      ],
+      "title": "灵气量表 HUD 元素",
+      "border": true
+    },
+    {
+      "type": "patchouli:text",
+      "text": "这个量表将出现在你屏幕的左上角。彩色条将为你提供当前区块中每种$(l:bloodmagic:demon_will/will_manipulation/aspected_will)意志属性$()含量的良好估计。$(br2)你可以按住[$(k:sneak)]来获取每个属性的数值，每个属性在1到100点$(raw)意志$()之间。100是一个区块中可以拥有的任何一种$(raw)意志$()属性的最大值。"
+    }
+  ]
+}

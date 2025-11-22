@@ -1,0 +1,21 @@
+{
+  "name": "通往无尽之境之路",
+  "icon": "bloodmagic:ingot_hellforged",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "无尽之境",
+      "multiblock_id": "bloodmagic:standard_dungeon",
+      "text": "使用$(l:bloodmagic:rituals/ritual_diviner)仪式占卜器$(/l)以方便建造。"
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "standard_dungeon",
+      "text_overrides": [
+        ["恶魔领域", "thing"]
+      ],
+      "text": "小心，恶魔领域非常危险。请做好准备！"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "炼金阵列",
+  "description": "炼金阵列是一种简单的效应，源于使用$(l:bloodmagic:alchemy_array/functional_arrays/arcane_ash)奥术之灰$(/l)在地面上绘制的圆环。它们构造简单，无论在游戏前期还是后期都非常有用。",
+  "icon": "bloodmagic:arcaneashes",
+  "sortnum": 2
+}

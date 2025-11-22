@@ -1,0 +1,41 @@
+{
+  "name": "传送器",
+  "icon": "bloodmagic:teleposerfocus",
+  "category": "bloodmagic:utility",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)传送器$()允许一种$(fire)红石控制$()的传送形式。只需合成一个$(item)传送定位焦点$()（见下页），将其绑定到你的目标传送器，放入另一个传送器中，并对装有焦点的传送器施加红石信号。两个传送器上方定义区域内的任何东西——方块、物品、实体、玩家——都会被交换。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:teleposer",
+      "text":"然而，没有什么是免费的；通过传送器运输方块或实体会花费$(blood)1 LP$()每穿越两个方块，每个方块/实体最多$(blood)1,000 LP$()，或总计$(blood)10,000 LP$()。"
+    },
+    {
+      "type": "bloodmagic:crafting_altar",
+      "heading": "传送定位焦点",
+      "recipe": "bloodmagic:altar/teleposer_focus",
+      "text": "基础的$(item)传送定位焦点$()会交换两个传送器上方1x1x1方块区域内的任何东西。"
+    },
+    {
+      "type": "bloodmagic:crafting_altar",
+      "heading": "强化焦点",
+      "recipe": "bloodmagic:altar/enhanced_teleposer_focus",
+      "text": "$(item)强化传送定位焦点$()会交换两个传送器正上方为中心的3x3x3方块区域内的任何东西。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:enhanced_teleposer_focus",
+      "text": "$(item)强化传送定位焦点$()会交换两个传送器正上方为中心的5x5x5方块区域内的任何东西。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "传送器可以单向链接（例如，对出口传送器的红石信号不起作用），双向链接（例如，每个传送器都有一个指向另一个传送器的焦点，使得你可以在任意一端收到红石信号时来回传送），甚至可以将它们链接起来——A到B到C再回到A。从穿越基地的电梯系统到复杂的地下迷宫，尽情发挥吧！"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "如果你的传送器无法正常工作，请确保它被$(thing)强红石信号充能$()。这意味着将红石块放在旁边无法为其充能——你需要将红石粉或中继器指向传送器的侧面，或者直接在它上面安装拉杆或按钮。毕竟生命源质不是免费的，因此传送器的设计旨在最大限度地减少意外误触发。有关强与弱红石充能的更多信息，请查阅$(l:https://minecraft.fandom.com/wiki/Redstone_mechanics?oldid=2127827#Powered_vs._activated)Minecraft Wiki。$()"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "活体装备基础",
+  "icon": "bloodmagic:reagentbinding",
+  "category": "bloodmagic:alchemy_array/living_equipment",
+  "extra_recipe_mappings": {
+    "bloodmagic:reagentbinding": 1,
+    "bloodmagic:livinghelmet": 3,
+    "bloodmagic:livingplate": 3,
+    "bloodmagic:livingleggings": 3,
+    "bloodmagic:livingboots": 3
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "要制作$(item)活体装备$()，你首先需要$(item)铁盔甲$()、一些$(l:bloodmagic:alchemy_array/functional_arrays/arcane_ash)奥术之灰$()和一些$(item)绑定试剂$()。你还需要至少一个$(br)$(l:bloodmagic:demon_will/will_manipulation/soul_gem)普通地狱宝石$()来容纳所需的$(item)恶魔意志$()。"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "绑定试剂",
+      "recipe": "bloodmagic:alchemytable/reagent_binding",
+      "text": "$(italic)它紧紧地粘附在我身上……$() $(br2)$(br2)$(item)活体装备$()的耐久度相当于$(item)钻石盔甲$()，可以在$(thing)铁砧$()中用更多的$(thing)绑定试剂$()修复。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "与任何其他炼金阵列一样，手持$(item)奥术之灰$()看着一个方块并按[$(k:use)]，然后放入$(item)绑定试剂$()。接着放入你的$(item)铁头盔$()、$(item)铁胸甲$()、$(item)铁护腿$()或$(item)铁靴子$()，退后一步，静观其变。$(br2) 活体装备初始属性相当于铁甲，但它拥有$(thing)升级点数$()，只要悉心培养，便可花费点数以特定方式训练它。它初始拥有100点，但或许有方法突破这个限制……"
+    },
+    {
+      "type": "bloodmagic:crafting_array",
+      "heading": "绑定仪式",
+      "recipe": "bloodmagic:array/living_helmet",
+      "text": "它活了，没错……而且它正在向你学习。你最好小心你教了它什么。$(br2)你可以通过查看它时按住[$(k:sneak)]来更仔细地观察它目前学到了什么。"
+    }
+  ]
+}

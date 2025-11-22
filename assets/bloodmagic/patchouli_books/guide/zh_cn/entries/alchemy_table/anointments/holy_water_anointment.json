@@ -1,0 +1,37 @@
+{
+  "name": "圣水",
+  "icon": "bloodmagic:holy_water_anointment",
+  "category": "bloodmagic:alchemy_table/anointments",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "圣水",
+      "recipe": "bloodmagic:alchemytable/holy_water_anointment",
+      "text": "暂时提高对亡灵生物的近战伤害+5。$(br2)有效物品：工具、剑。$(br2)施加效果：圣光 I (256 次击中)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "圣水 L",
+      "recipe": "bloodmagic:alchemytable/holy_water_anointment_l",
+      "text": "此注魔的升级版本持续时间延长四倍。$(br2)施加效果：圣光 I (1024 次击中)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "圣水 II",
+      "recipe": "bloodmagic:alchemytable/holy_water_anointment_2",
+      "text": "此注魔的升级版本将对亡灵生物的近战伤害提高+10。$(br2)施加效果：圣光 II (256 次击中)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "圣水 XL",
+      "recipe": "bloodmagic:alchemytable/holy_water_anointment_xl",
+      "text": "此注魔的升级版本持续时间延长十六倍。$(br2)施加效果：圣光 I (4096 次击中)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "圣水 III",
+      "recipe": "bloodmagic:alchemytable/holy_water_anointment_3",
+      "text": "此注魔的升级版本将对亡灵生物的近战伤害提高+15。$(br2)施加效果：圣光 III (256 次击中)"
+    }
+  ]
+}

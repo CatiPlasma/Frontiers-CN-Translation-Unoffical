@@ -1,0 +1,35 @@
+{
+  "name": "新月初升",
+  "icon": "minecraft:ender_pearl",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "patchouli:multiblock",
+      "name": "新月初升",
+      "multiblock_id": "bloodmagic:sphere",
+      "text": "使用$(l:bloodmagic:rituals/ritual_diviner#dusk)仪式占卜器[薄暮]$(/l)以方便建造。"
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "sphere",
+      "text_overrides": [
+        ["生命能量", "blood"]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "sphere",
+      "page_type": "spheroidRange"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/ritual/sphere_above.png",
+        "bloodmagic:images/entries/ritual/sphere_below.png"
+      ],
+      "title": "默认大小",
+      "border": true,
+      "text": "使用默认设置运行仪式的结果。"
+    }
+  ]
+}

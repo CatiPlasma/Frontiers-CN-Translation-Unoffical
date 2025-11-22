@@ -1,0 +1,17 @@
+{
+  "name": "尖刺阵列",
+  "icon": "minecraft:iron_ingot",
+  "category": "bloodmagic:alchemy_array/functional_array",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "尖刺阵列是一个目的相当单一的简单阵列。当生命实体踏入阵列时，他们会受到一整颗心的伤害。这适用于制作怪物陷阱，或者让你的基地对（其他）玩家来说更“带刺”一些。"
+    },
+    {
+      "type": "bloodmagic:functional_array",
+      "heading": "尖刺阵列",
+      "recipe": "bloodmagic:array/spike",
+      "image": "spikearray.png"
+    }
+  ]
+}
