@@ -3,5 +3,6 @@
     "frontiers.tooltip.drone.range": "范围: ",
     "frontiers.tooltip.drone.energy": "电压: ",
     "frontiers.tooltip.drone.chance": "坠机率: ",
-    "frontiers.tooltip.drone.cleanroom": "超净间模式已启用！"
+    "frontiers.tooltip.drone.cleanroom": "超净间模式已启用！",
+    "frontiers.tooltip.drone_frame.flag": "用于制作: "
 }
