@@ -575,5 +575,8 @@
     "tooltip.cosmiccore.ember_hatch.consumption": "§c最大余烬消耗§f:§6 %s",
     "tooltip.gt_scythe.energy": "能量: %s / %s EU",
     "tooltip.gt_scythe.no_energy": "§c能量不足",
-    "tooltip.gt_scythe.per_hit": "消耗: %s EU / 次"
+    "tooltip.gt_scythe.per_hit": "消耗: %s EU / 次",
+    "cosmiccore.booster.tooltip.prefix": "§b助燃剂:§r 等级",
+    "cosmiccore.lubricant.tooltip.prefix": "§e润滑油:§r 等级",
+    "cosmiccore.calorific.tooltip.prefix": "§6热值:§r "
 }
