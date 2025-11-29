@@ -578,5 +578,11 @@
     "tooltip.gt_scythe.per_hit": "消耗: %s EU / 次",
     "cosmiccore.booster.tooltip.prefix": "§b助燃：§r等级%s",
     "cosmiccore.lubricant.tooltip.prefix": "§e润滑：§r等级%s",
-    "cosmiccore.calorific.tooltip.prefix": "§6热值：§r%s"
+    "cosmiccore.calorific.tooltip.prefix": "§6热值：§r%s",
+    "cosmiccore.multiblock.drone_station_machine.tier.0": "等离子",
+    "cosmiccore.multiblock.drone_station_machine.tier.1": "血红",
+    "cosmiccore.multiblock.drone_station_machine.tier.2": "工业",
+    "cosmiccore.multiblock.drone_station_machine.tier.3": "坚固",
+    "cosmiccore.multiblock.drone_station_machine.tier.4": "锈蚀",
+    "cosmiccore.multiblock.drone_station_machine.tier.5": "无"
 }
