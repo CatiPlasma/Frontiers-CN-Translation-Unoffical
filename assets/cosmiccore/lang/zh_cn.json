@@ -289,7 +289,7 @@
     "cosmiccore.multiblock.drone_maintenance_interface.connection_location": "当前连接到 (%s, %s, %s)",
     "cosmiccore.multiblock.drone_maintenance_interface.no_connection": "未连接",
     "cosmiccore.multiblock.drone_station_machine.current_tier": "当前蜂机等级: %s",
-    "cosmiccore.multiblock.drone_station_machine.drone_amount": "当前有 %s 架蜂机提供维护服务！",
+    "cosmiccore.multiblock.drone_station_machine.drone_amount": "当前共有 %s 架蜂机提供维护服务！",
     "cosmiccore.multiblock.drone_station_machine.no_drones": "无蜂机连接",
     "cosmiccore.multiblock.heat_capacity": "§c最大热量: %s",
     "cosmiccore.multiblock.heat_value": "§6当前热量: %s",
