@@ -1,0 +1,30 @@
+{
+  "name": "环境监测仪",
+  "icon": "advancedperipherals:environment_detector",
+  "category": "advancedperipherals:peripherals",
+  "pages": [
+    {
+      "type": "text",
+      "text": "环境监测仪能够从环境中接收信息，例如当前时间、当前月相、方块的光照等级等等。$(p)完整文档请查阅 $(9)$(l:https://docs.intelligence-modding.de/peripherals/environment_detector/)官方 Wiki 页面$(/l)$()！"
+    },
+    {
+      "type": "crafting",
+      "recipe": "advancedperipherals:environment_detector"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "mapping": {
+          "0": "computercraft:computer_advanced",
+          "P": "advancedperipherals:environment_detector"
+        },
+        "pattern": [
+          [
+            "0P"
+          ]
+        ]
+      },
+      "text": "将您的环境监测仪连接到计算机以使用它！"
+    }
+  ]
+}

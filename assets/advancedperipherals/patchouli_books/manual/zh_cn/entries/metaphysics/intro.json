@@ -1,0 +1,12 @@
+{
+  "name": "引言",
+  "icon": "advancedperipherals:weak_automata_core",
+  "category": "advancedperipherals:metaphysics",
+  "priority": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "这个世界对你隐藏着许多秘密。你感觉到，即便是简单的海龟也能成为掌控现实的强大工具，你只需要在其中放入一些真实的东西。一些更像是……灵魂的东西？"
+    }
+  ]
+}

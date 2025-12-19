@@ -1,0 +1,20 @@
+{
+  "name": "末影自动化核心",
+  "icon": "advancedperipherals:end_automata_core",
+  "category": "advancedperipherals:metaphysics",
+  "advancement": "advancedperipherals:weak_automata_core",
+  "pages": [
+    {
+      "type": "spotlight",
+      "title": "末影自动化核心",
+      "item": "advancedperipherals:end_automata_core",
+      "text": "在吞噬了 10 个末影人后，弱自动化核心将转化为末影自动化核心！$(p)除了成为更强大的弱自动化核心变体外，似乎这个灵魂还为海龟本身提供了一些有限的传送能力。"
+    },
+    {
+      "type": "link",
+      "text": "除了弱自动化核心的能力外，这个灵魂还允许有限的世界内传送。看来，你需要存储坐标点，然后传送到那里！$(p)但请注意，海龟被破坏后，任何已存储的坐标点都会丢失。",
+      "url": "https://docs.intelligence-modding.de/metaphysics/end_automata/",
+      "link_text": "API 文档"
+    }
+  ]
+}

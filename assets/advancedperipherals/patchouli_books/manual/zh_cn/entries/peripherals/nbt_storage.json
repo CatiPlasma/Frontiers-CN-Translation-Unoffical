@@ -1,0 +1,30 @@
+{
+  "name": "NBT存储器",
+  "icon": "advancedperipherals:nbt_storage",
+  "category": "advancedperipherals:peripherals",
+  "pages": [
+    {
+      "type": "text",
+      "text": "NBT存储器是一个自定义方块，允许向方块输入/输出自定义数据。主要为支持 ID 而提供。$(p)完整文档请查阅 $(9)$(l:https://docs.intelligence-modding.de/peripherals/nbt_storage/)官方 Wiki 页面$(/l)$()！"
+    },
+    {
+      "type": "crafting",
+      "recipe": "advancedperipherals:nbt_storage"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "mapping": {
+          "0": "computercraft:computer_advanced",
+          "P": "advancedperipherals:nbt_storage"
+        },
+        "pattern": [
+          [
+            "0P"
+          ]
+        ]
+      },
+      "text": "将您的 NBT存储器连接到计算机以使用它！"
+    }
+  ]
+}

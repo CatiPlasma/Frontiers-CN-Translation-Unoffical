@@ -1,0 +1,15 @@
+{
+  "name": "记忆卡",
+  "icon": "advancedperipherals:memory_card",
+  "category": "advancedperipherals:items",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(9)$(l:items/ar_goggles)AR 护目镜$(/l)$() 可与 $(9)$(l:peripherals/inventory_manager)库存管理器$(/l)$() 结合使用，以与玩家的物品栏进行交互。$(p)手持记忆卡右键点击可将其绑定至自身。$(p)完整文档请查阅 $(9)$(l:https://docs.intelligence-modding.de/items/ar_goggles/)官方 Wiki 页面$(/l)$()！"
+    },
+    {
+      "type": "crafting",
+      "recipe": "advancedperipherals:memory_card"
+    }
+  ]
+}

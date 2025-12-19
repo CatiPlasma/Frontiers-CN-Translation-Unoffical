@@ -1,0 +1,30 @@
+{
+  "name": "红石接口",
+  "icon": "advancedperipherals:redstone_integrator",
+  "category": "advancedperipherals:peripherals",
+  "pages": [
+    {
+      "type": "text",
+      "text": "红石接口能够与红石交互。您可以在红石接口上使用与普通计算机相同的代码。$(p)在您需要从比普通计算机更多的面输出红石信号的情况下，可能会需要此外设。$(p)完整文档请查阅 $(9)$(l:https://docs.intelligence-modding.de/peripherals/redstone_integrator/)官方 Wiki 页面$(/l)$()！"
+    },
+    {
+      "type": "crafting",
+      "recipe": "advancedperipherals:redstone_integrator"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "mapping": {
+          "0": "computercraft:computer_advanced",
+          "P": "advancedperipherals:redstone_integrator"
+        },
+        "pattern": [
+          [
+            "0P"
+          ]
+        ]
+      },
+      "text": "将您的红石接口连接到计算机以使用它！"
+    }
+  ]
+}

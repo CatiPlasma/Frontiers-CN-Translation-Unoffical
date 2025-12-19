@@ -1,0 +1,15 @@
+{
+  "name": "区块加载器",
+  "icon": "advancedperipherals:chunk_controller",
+  "category": "advancedperipherals:items",
+  "pages": [
+    {
+      "type": "text",
+      "text": "区块加载器是制作区块加载海龟的合成材料。$(p)将其与海龟或高级海龟结合，即可使其具有区块加载功能！$(p)完整文档请查阅 $(9)$(l:https://docs.intelligence-modding.de/items/chunk_controller/)官方 Wiki 页面$(/l)$()！"
+    },
+    {
+      "type": "crafting",
+      "recipe": "advancedperipherals:chunk_controller"
+    }
+  ]
+}

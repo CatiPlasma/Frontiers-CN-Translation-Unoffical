@@ -1,0 +1,5 @@
+{
+  "name": "外设",
+  "description": "本模组添加的所有外设。$(p)使用它们来与其他模组、玩家、世界以及游戏聊天进行交互。",
+  "icon": "advancedperipherals:chat_box"
+}

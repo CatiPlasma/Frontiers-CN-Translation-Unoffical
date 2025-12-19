@@ -1,0 +1,30 @@
+{
+  "name": "地理扫描仪",
+  "icon": "advancedperipherals:geo_scanner",
+  "category": "advancedperipherals:peripherals",
+  "pages": [
+    {
+      "type": "text",
+      "text": "地理扫描仪提供关于扫描仪所在位置周围方块和区块的信息。地理扫描仪在扫描之间有延迟，因此您需要为此做好准备。$(p)完整文档请查阅 $(9)$(l:https://docs.intelligence-modding.de/peripherals/geo_scanner/)官方 Wiki 页面$(/l)$()！"
+    },
+    {
+      "type": "crafting",
+      "recipe": "advancedperipherals:geo_scanner"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "mapping": {
+          "0": "computercraft:computer_advanced",
+          "P": "advancedperipherals:geo_scanner"
+        },
+        "pattern": [
+          [
+            "0P"
+          ]
+        ]
+      },
+      "text": "将您的地理扫描仪连接到计算机以使用它！"
+    }
+  ]
+}

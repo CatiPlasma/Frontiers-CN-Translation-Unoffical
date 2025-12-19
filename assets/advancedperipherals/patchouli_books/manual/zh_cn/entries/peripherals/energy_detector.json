@@ -1,0 +1,30 @@
+{
+  "name": "能源侦测器",
+  "icon": "advancedperipherals:energy_detector",
+  "category": "advancedperipherals:peripherals",
+  "pages": [
+    {
+      "type": "text",
+      "text": "能源侦测器可以检测能量流动并充当电阻。您可以设定最大流量以将其用作电阻。$(p)完整文档请查阅 $(9)$(l:https://docs.intelligence-modding.de/peripherals/energy_detector/)官方 Wiki 页面$(/l)$()！"
+    },
+    {
+      "type": "crafting",
+      "recipe": "advancedperipherals:energy_detector"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "mapping": {
+          "0": "computercraft:computer_advanced",
+          "P": "advancedperipherals:energy_detector"
+        },
+        "pattern": [
+          [
+            "0P"
+          ]
+        ]
+      },
+      "text": "将您的能源侦测器连接到计算机以使用它！"
+    }
+  ]
+}

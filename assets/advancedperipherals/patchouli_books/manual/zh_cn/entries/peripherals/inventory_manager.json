@@ -1,0 +1,30 @@
+{
+  "name": "库存管理器",
+  "icon": "advancedperipherals:inventory_manager",
+  "category": "advancedperipherals:peripherals",
+  "pages": [
+    {
+      "type": "text",
+      "text": "库存管理器可以与玩家的物品栏进行交互。您需要右键使用一张内存卡并将其放入管理器中才能使用。$(p)完整文档请查阅 $(9)$(l:https://docs.intelligence-modding.de/peripherals/inventory_manager/)官方 Wiki 页面$(/l)$()！"
+    },
+    {
+      "type": "crafting",
+      "recipe": "advancedperipherals:inventory_manager"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "mapping": {
+          "0": "computercraft:computer_advanced",
+          "P": "advancedperipherals:inventory_manager"
+        },
+        "pattern": [
+          [
+            "0P"
+          ]
+        ]
+      },
+      "text": "将您的库存管理器连接到计算机以使用它！"
+    }
+  ]
+}

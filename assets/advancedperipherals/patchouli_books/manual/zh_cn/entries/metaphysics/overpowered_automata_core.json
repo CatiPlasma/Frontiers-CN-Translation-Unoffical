@@ -1,0 +1,25 @@
+{
+  "name": "过载自动化核心",
+  "icon": "advancedperipherals:overpowered_weak_automata_core",
+  "category": "advancedperipherals:metaphysics",
+  "advancement": "advancedperipherals:weak_automata_core",
+  "pages": [
+    {
+      "type": "spotlight",
+      "title": "过载弱自动化核心",
+      "item": "advancedperipherals:overpowered_weak_automata_core",
+      "text": "这是你首次尝试绕过形而上学的规则。嗯，结果并不如你希望的那么成功。$(p)将任意自动化核心与下界之星简单结合，产生了一些结果……"
+    },
+    {
+      "type": "crafting",
+      "recipe": "advancedperipherals:overpowered_weak_automata_core",
+      "recipe2": "advancedperipherals:overpowered_end_automata_core"
+    },
+    {
+      "type": "link",
+      "text": "过载版本的自动化核心在使用时不会消耗物品耐久度。$(p)但一切皆有代价。如果你试图在燃料不足的情况下用此核心执行任何操作——升级将立即损坏。",
+      "url": "https://docs.intelligence-modding.de/metaphysics/overpowered_automata/",
+      "link_text": "API 文档"
+    }
+  ]
+}

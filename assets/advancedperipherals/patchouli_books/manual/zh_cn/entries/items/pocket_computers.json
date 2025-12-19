@@ -1,0 +1,15 @@
+{
+  "name": "口袋计算机附件",
+  "icon": "computercraft:pocket_computer_advanced",
+  "category": "advancedperipherals:items",
+  "pages": [
+    {
+      "type": "text",
+      "text": "我们为以下外设提供了口袋计算机升级：$(li)$(9)$(l:peripherals/environment_detector)环境检测器$(/l)$()$(li)$(9)$(l:peripherals/player_detector)玩家检测器$(/l)$()$(li)$(9)$(l:peripherals/chat_box)聊天框$(/l)$()$(p)完整文档请查阅 $(9)$(l:https://docs.intelligence-modding.de/items/pocket_computer/)官方 Wiki 页面$(/l)$()！"
+    },
+    {
+      "type": "text",
+      "text": "只需将它们与口袋计算机合成，即可将对应外设添加至其中。请注意，您无法使用其关联的事件。"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "殖民接口",
+  "icon": "advancedperipherals:colony_integrator",
+  "category": "advancedperipherals:peripherals",
+  "pages": [
+    {
+      "type": "text",
+      "text": "殖民接口可以与来自 MineColonies 的殖民地互动。$(p)完整文档请查阅 $(9)$(l:https://docs.intelligence-modding.de/peripherals/colony_integrator/)官方 Wiki 页面$(/l)$()！"
+    },
+    {
+      "type": "crafting",
+      "recipe": "advancedperipherals:colony_integrator"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "mapping": {
+          "0": "computercraft:computer_advanced",
+          "P": "advancedperipherals:colony_integrator"
+        },
+        "pattern": [
+          [
+            "0P"
+          ]
+        ]
+      },
+      "text": "将您的殖民接口连接到村庄区域内的计算机以使用它！"
+    }
+  ]
+}
